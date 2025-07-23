@@ -40,7 +40,7 @@ Some sites block the scraper (403 Forbidden) or have connection timeouts.
 
 
 
-How Someone Else Can Run This
+# How Someone Else Can Run This:
 Prerequisites Installation
 bash# Create virtual environment
 python -m venv .venv
