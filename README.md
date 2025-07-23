@@ -36,11 +36,16 @@ The hardcoded Ultimate Guitar URLs return 404 errors. Need fresh, valid URLs or 
 The script generates duplicate chunk IDs, causing database errors.
 5. Website Access Issues
 Some sites block the scraper (403 Forbidden) or have connection timeouts.
+
+
+
+
 How Someone Else Can Run This
 Prerequisites Installation
 bash# Create virtual environment
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
 
 # Install required packages
 pip install requests beautifulsoup4 tiktoken chromadb pandas
