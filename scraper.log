@@ -66,3 +66,219 @@
 2025-07-23 14:16:35,235 - INFO - Added 421 chunks to ChromaDB
 2025-07-23 14:16:35,288 - INFO - Saved 421 chunks to music_rag_data\complete_music_dataset.json
 2025-07-23 14:16:35,289 - INFO - Scraping complete! Total chunks: 421
+2025-07-23 14:56:54,025 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-23 14:56:54,291 - ERROR - Error parsing TuxGuitar file samples/song1.gp3: [Errno 2] No such file or directory: 'samples/song1.gp3'
+2025-07-23 14:56:54,292 - ERROR - Error parsing TuxGuitar file samples/song2.gp5: [Errno 2] No such file or directory: 'samples/song2.gp5'
+2025-07-23 14:58:27,169 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-23 14:58:27,345 - ERROR - Error parsing TuxGuitar file samples/song1.gp3: [Errno 2] No such file or directory: 'samples/song1.gp3'
+2025-07-23 14:58:27,345 - ERROR - Error parsing TuxGuitar file samples/song2.gp5: [Errno 2] No such file or directory: 'samples/song2.gp5'
+2025-07-23 14:58:27,346 - ERROR - Error parsing freetar tab samples/tab1.txt: [Errno 2] No such file or directory: 'samples/tab1.txt'
+2025-07-23 14:58:27,346 - ERROR - Error parsing freetar tab samples/tab2.txt: [Errno 2] No such file or directory: 'samples/tab2.txt'
+2025-07-23 14:58:27,348 - INFO - Saved 0 chunks to music_rag_data\phase1_tab_chunks.json
+2025-07-23 14:58:27,348 - INFO - Starting full scraping pipeline...
+2025-07-23 14:58:27,349 - INFO - Scraping educational music websites...
+2025-07-23 14:58:37,494 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000012F81B8ECF0>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-23 14:58:37,496 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-23 14:59:02,186 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-23 14:59:19,239 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-23 14:59:21,439 - ERROR - Request failed for https://iconcollective.edu/basic-music-theory/: 404 Client Error: Not Found for url: https://iconcollective.edu/basic-music-theory/
+2025-07-23 14:59:21,439 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-23 14:59:59,179 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-23 15:00:28,803 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-23 15:00:31,052 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-23 15:00:42,667 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-23 15:00:58,010 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-23 15:01:00,202 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-23 15:01:00,203 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-23 15:01:02,379 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-23 15:01:02,380 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-23 15:01:04,404 - INFO - Saved 410 chunks to music_rag_data\educational_websites.json
+2025-07-23 15:01:04,404 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-23 15:01:04,688 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-23 15:01:05,866 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-23 15:01:06,620 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593
+2025-07-23 15:01:06,622 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-23 15:01:06,623 - INFO - Scraping awesome-guitar resources...
+2025-07-23 15:01:12,955 - INFO - Saved 11 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-23 15:01:12,957 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 59c8d1a079a6ecd08faa1eb8a531b710, b55bc0db67338b5cc26d55c2b34ea4de, c402d5352c1737bc185c52daa25ebc86, 9e4a4599c1c705780452aeedd191ad74, 373de987838f7b5fea7e9a3bdf15d210 in add.
+2025-07-23 15:01:12,958 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-23 15:01:34,799 - INFO - Added 421 chunks to ChromaDB
+2025-07-23 15:01:34,825 - INFO - Saved 421 chunks to music_rag_data\complete_music_dataset.json
+2025-07-23 15:01:34,826 - INFO - Scraping complete! Total chunks: 421
+2025-07-23 15:35:34,896 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-23 15:35:35,183 - ERROR - Error parsing TuxGuitar file samples/song1.gp3: [Errno 2] No such file or directory: 'samples/song1.gp3'
+2025-07-23 15:35:35,183 - ERROR - Error parsing TuxGuitar file samples/song2.gp5: [Errno 2] No such file or directory: 'samples/song2.gp5'
+2025-07-23 15:37:11,973 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-23 15:37:12,294 - ERROR - Error parsing TuxGuitar file samples/song1.gp3: [Errno 2] No such file or directory: 'samples/song1.gp3'
+2025-07-23 15:37:12,295 - ERROR - Error parsing TuxGuitar file samples/song2.gp5: [Errno 2] No such file or directory: 'samples/song2.gp5'
+2025-07-23 15:38:51,845 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-23 15:38:52,124 - ERROR - Error parsing TuxGuitar file samples/song1.gp3: [Errno 2] No such file or directory: 'samples/song1.gp3'
+2025-07-23 15:38:52,124 - ERROR - Error parsing TuxGuitar file samples/song2.gp5: [Errno 2] No such file or directory: 'samples/song2.gp5'
+2025-07-23 15:38:52,125 - ERROR - Error parsing freetar tab samples/tab1.txt: [Errno 2] No such file or directory: 'samples/tab1.txt'
+2025-07-23 15:38:52,125 - ERROR - Error parsing freetar tab samples/tab2.txt: [Errno 2] No such file or directory: 'samples/tab2.txt'
+2025-07-23 15:38:52,126 - INFO - Saved 0 chunks to music_rag_data\phase1_tab_chunks.json
+2025-07-23 15:38:52,126 - INFO - Starting full scraping pipeline...
+2025-07-23 15:38:52,127 - INFO - Scraping educational music websites...
+2025-07-23 15:39:02,264 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F1DCB8ECF0>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-23 15:39:02,271 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-23 15:39:27,001 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-23 15:39:44,658 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-23 15:39:46,879 - ERROR - Request failed for https://iconcollective.edu/basic-music-theory/: 404 Client Error: Not Found for url: https://iconcollective.edu/basic-music-theory/
+2025-07-23 15:39:46,882 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-23 15:40:12,641 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-23 15:40:41,980 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-23 15:40:44,278 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-23 15:40:55,423 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-23 15:41:10,781 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-23 15:41:12,991 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-23 15:41:12,991 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-23 15:41:15,179 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-23 15:41:15,180 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-23 15:41:17,211 - INFO - Saved 410 chunks to music_rag_data\educational_websites.json
+2025-07-23 15:41:17,211 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-23 15:41:17,496 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-23 15:41:18,447 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-23 15:41:19,447 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593
+2025-07-23 15:41:19,448 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-23 15:41:19,449 - INFO - Scraping awesome-guitar resources...
+2025-07-23 15:41:25,018 - INFO - Saved 11 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-23 15:41:25,020 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 9e4a4599c1c705780452aeedd191ad74, b55bc0db67338b5cc26d55c2b34ea4de, 373de987838f7b5fea7e9a3bdf15d210, c402d5352c1737bc185c52daa25ebc86, 59c8d1a079a6ecd08faa1eb8a531b710 in add.
+2025-07-23 15:41:25,020 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-23 15:41:48,700 - INFO - Added 421 chunks to ChromaDB
+2025-07-23 15:41:48,758 - INFO - Saved 421 chunks to music_rag_data\complete_music_dataset.json
+2025-07-23 15:41:48,759 - INFO - Scraping complete! Total chunks: 421
+2025-07-23 16:07:18,403 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-23 16:07:18,741 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-23 16:07:18,742 - ERROR - Error parsing TuxGuitar file samples/sample.gp3: module 'guitarpro' has no attribute 'open'
+2025-07-23 16:07:18,748 - WARNING - Tabs-Lite file not found: samples/sample_chords.txt
+2025-07-23 16:07:23,426 - INFO - Saved 620 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-23 16:07:23,427 - INFO - Testing ChromaDB ingestion and query with 620 chunks...
+2025-07-23 16:07:23,639 - INFO - ChromaDB collection cleared for test.
+2025-07-23 16:07:23,640 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['E-3', 'B-3', 'B-3', 'B-3'] which is a list in add.
+2025-07-23 16:07:23,641 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['F3', 'C4', 'F3', 'C4', 'F3', 'C4'] which is a list in add.
+2025-07-23 16:07:23,641 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['E-3', 'B-3', 'E-4', 'F4', 'B-4', 'E-3', 'B-3', 'E-4', 'F4', 'B-4', 'B-4', 'F4', 'E-4', 'B-3', 'E-3', 'E-3', 'B-3', 'E-4', 'F4', 'B-4', 'B-4', 'F4', 'E-4', 'B-3', 'E-3'] which is a list in add.
+2025-07-23 16:07:23,643 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['F5'] which is a list in add.
+2025-07-23 16:07:23,644 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['G3', 'G3', 'G3'] which is a list in add.
+2025-07-23 16:07:23,645 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['A3', 'B-3', 'A3'] which is a list in add.
+2025-07-23 16:07:23,645 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['C4'] which is a list in add.
+2025-07-23 16:07:23,646 - INFO - Added 620 chunks to ChromaDB
+2025-07-23 16:07:24,598 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-23 16:07:24,598 - INFO - Starting full scraping pipeline...
+2025-07-23 16:07:24,599 - INFO - Scraping educational music websites...
+2025-07-23 16:07:34,756 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001396D5E1A90>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-23 16:07:34,757 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-23 16:07:59,459 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-23 16:08:16,174 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-23 16:08:18,465 - ERROR - Request failed for https://iconcollective.edu/basic-music-theory/: 404 Client Error: Not Found for url: https://iconcollective.edu/basic-music-theory/
+2025-07-23 16:08:18,465 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-23 16:08:43,903 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-23 16:09:13,292 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-23 16:09:15,551 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-23 16:09:27,143 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-23 16:09:42,271 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-23 16:09:44,505 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-23 16:09:44,505 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-23 16:09:46,656 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-23 16:09:46,657 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-23 16:10:16,091 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-23 16:10:18,139 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-23 16:10:18,140 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-23 16:10:18,406 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-23 16:10:19,361 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-23 16:10:20,350 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593
+2025-07-23 16:10:20,352 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-23 16:10:20,352 - INFO - Scraping awesome-guitar resources...
+2025-07-23 16:10:26,004 - INFO - Saved 11 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-23 16:10:26,006 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: c402d5352c1737bc185c52daa25ebc86, 59c8d1a079a6ecd08faa1eb8a531b710, b55bc0db67338b5cc26d55c2b34ea4de, 9e4a4599c1c705780452aeedd191ad74, 373de987838f7b5fea7e9a3bdf15d210 in add.
+2025-07-23 16:10:26,007 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-23 16:11:23,316 - INFO - Added 786 chunks to ChromaDB
+2025-07-23 16:11:23,365 - INFO - Saved 786 chunks to music_rag_data\complete_music_dataset.json
+2025-07-23 16:11:23,365 - INFO - Scraping complete! Total chunks: 786
+2025-07-23 16:16:39,290 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-23 16:16:39,551 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-23 16:16:39,551 - ERROR - Error parsing TuxGuitar file samples/sample.gp3: module 'guitarpro' has no attribute 'open'
+2025-07-23 16:16:39,556 - WARNING - Tabs-Lite file not found: samples/sample_chords.txt
+2025-07-23 16:16:40,227 - INFO - Saved 620 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-23 16:16:40,228 - INFO - Testing ChromaDB ingestion and query with 620 chunks...
+2025-07-23 16:16:40,597 - INFO - ChromaDB collection cleared for test.
+2025-07-23 16:16:40,598 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['E-3', 'B-3', 'B-3', 'B-3'] which is a list in add.
+2025-07-23 16:16:40,598 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['F3', 'C4', 'F3', 'C4', 'F3', 'C4'] which is a list in add.
+2025-07-23 16:16:40,599 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['E-3', 'B-3', 'E-4', 'F4', 'B-4', 'E-3', 'B-3', 'E-4', 'F4', 'B-4', 'B-4', 'F4', 'E-4', 'B-3', 'E-3', 'E-3', 'B-3', 'E-4', 'F4', 'B-4', 'B-4', 'F4', 'E-4', 'B-3', 'E-3'] which is a list in add.
+2025-07-23 16:16:40,599 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['F5'] which is a list in add.
+2025-07-23 16:16:40,600 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['G3', 'G3', 'G3'] which is a list in add.
+2025-07-23 16:16:40,600 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['A3', 'B-3', 'A3'] which is a list in add.
+2025-07-23 16:16:40,600 - ERROR - Error adding batch to ChromaDB: Expected metadata value to be a str, int, float, bool, or None, got ['C4'] which is a list in add.
+2025-07-23 16:16:40,601 - INFO - Added 620 chunks to ChromaDB
+2025-07-23 16:16:41,622 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-23 16:16:41,623 - INFO - Starting full scraping pipeline...
+2025-07-23 16:16:41,624 - INFO - Scraping educational music websites...
+2025-07-23 16:16:51,756 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B590C3CB90>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-23 16:16:51,756 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-23 16:17:16,484 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-23 16:17:31,948 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-23 16:17:34,141 - ERROR - Request failed for https://iconcollective.edu/basic-music-theory/: 404 Client Error: Not Found for url: https://iconcollective.edu/basic-music-theory/
+2025-07-23 16:17:34,142 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-23 16:17:59,305 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-23 16:18:28,556 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-23 16:18:30,778 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-23 16:18:42,506 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-23 16:18:57,663 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-23 16:18:59,876 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-23 16:18:59,877 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-23 16:19:02,030 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-23 16:19:02,030 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-23 16:19:30,861 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-23 16:19:32,910 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-23 16:19:32,910 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-23 16:19:33,448 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-23 16:19:34,132 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-23 16:19:35,133 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593
+2025-07-23 16:19:35,134 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-23 16:19:35,135 - INFO - Scraping awesome-guitar resources...
+2025-07-23 16:19:40,724 - INFO - Saved 11 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-23 16:19:40,725 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: c402d5352c1737bc185c52daa25ebc86, 9e4a4599c1c705780452aeedd191ad74, 373de987838f7b5fea7e9a3bdf15d210, b55bc0db67338b5cc26d55c2b34ea4de, 59c8d1a079a6ecd08faa1eb8a531b710 in add.
+2025-07-23 16:19:40,726 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-23 16:20:39,354 - INFO - Added 786 chunks to ChromaDB
+2025-07-23 16:20:39,437 - INFO - Saved 786 chunks to music_rag_data\complete_music_dataset.json
+2025-07-23 16:20:39,437 - INFO - Scraping complete! Total chunks: 786
+2025-07-23 16:28:33,843 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-23 16:28:34,112 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-23 16:28:34,112 - ERROR - Error parsing TuxGuitar file samples/sample.gp3: module 'guitarpro' has no attribute 'open'
+2025-07-23 16:28:34,117 - WARNING - Tabs-Lite file not found: samples/sample_chords.txt
+2025-07-23 16:28:34,878 - INFO - Saved 620 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-23 16:28:34,879 - INFO - Testing ChromaDB ingestion and query with 620 chunks...
+2025-07-23 16:28:35,556 - INFO - ChromaDB collection cleared for test.
+2025-07-23 16:29:45,402 - INFO - Added 620 chunks to ChromaDB
+2025-07-23 16:29:45,966 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-23 16:29:45,967 - INFO - Starting full scraping pipeline...
+2025-07-23 16:29:45,968 - INFO - Scraping educational music websites...
+2025-07-23 16:29:56,100 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000253BCA00910>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-23 16:29:56,100 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-23 16:30:20,896 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-23 16:30:27,654 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-23 16:30:32,673 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-23 16:30:34,882 - ERROR - Request failed for https://iconcollective.edu/basic-music-theory/: 404 Client Error: Not Found for url: https://iconcollective.edu/basic-music-theory/
+2025-07-23 16:30:34,882 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-23 16:31:00,130 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-23 16:31:29,464 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-23 16:31:31,715 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-23 16:31:43,057 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-23 16:31:58,344 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-23 16:32:00,553 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-23 16:32:00,553 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-23 16:32:02,723 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-23 16:32:02,724 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-23 16:32:31,816 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-23 16:32:33,863 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-23 16:32:33,864 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-23 16:32:34,142 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-23 16:32:35,081 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-23 16:32:36,090 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593
+2025-07-23 16:32:36,091 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-23 16:32:36,092 - INFO - Scraping awesome-guitar resources...
+2025-07-23 16:32:41,812 - INFO - Saved 11 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-23 16:32:41,815 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 373de987838f7b5fea7e9a3bdf15d210, b55bc0db67338b5cc26d55c2b34ea4de, c402d5352c1737bc185c52daa25ebc86, 9e4a4599c1c705780452aeedd191ad74, 59c8d1a079a6ecd08faa1eb8a531b710 in add.
+2025-07-23 16:32:41,816 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-23 16:33:39,499 - INFO - Added 786 chunks to ChromaDB
+2025-07-23 16:33:39,546 - INFO - Saved 786 chunks to music_rag_data\complete_music_dataset.json
+2025-07-23 16:33:39,546 - INFO - Scraping complete! Total chunks: 786

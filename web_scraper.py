@@ -6,7 +6,7 @@ and educational materials for RAG system integration.
 """
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 import json
 import os
 import time
@@ -28,6 +28,10 @@ import music21
 import guitarpro
 from pretty_midi import PrettyMIDI
 import pandas as pd
+import warnings
+
+# Filter XML parsing warnings
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 # Setup logging
 logging.basicConfig(
@@ -118,6 +122,26 @@ class MusicDataScraper:
         
         return chunks
 
+    def _sanitize_metadata_for_chromadb(self, metadata: Dict[str, Any]) -> Dict[str, Any]:
+        """Convert metadata to ChromaDB compatible format (only str, int, float, bool, None)"""
+        sanitized = {}
+        for key, value in metadata.items():
+            if isinstance(value, (str, int, float, bool)) or value is None:
+                sanitized[key] = value
+            elif isinstance(value, list):
+                # Convert lists to comma-separated strings
+                if value and all(isinstance(item, (str, int, float)) for item in value):
+                    sanitized[key] = ", ".join(str(item) for item in value)
+                else:
+                    sanitized[key] = str(value)
+            elif isinstance(value, dict):
+                # Convert dicts to JSON strings
+                sanitized[key] = json.dumps(value)
+            else:
+                # Convert other types to strings
+                sanitized[key] = str(value)
+        return sanitized
+
     def scrape_ultimate_guitar_tabs(self, song_urls: List[str]) -> List[MusicChunk]:
         """Scrape guitar tabs from Ultimate Guitar"""
         logger.info("Scraping Ultimate Guitar tabs...")
@@ -197,7 +221,8 @@ class MusicDataScraper:
             "https://www.earmaster.com/",
             "https://www.premierguitar.com/",
             "https://www.sweetwater.com/sweetcare/",
-            "https://www.guitartricks.com/"
+            "https://www.guitartricks.com/",
+            "https://en.wikipedia.org/wiki/Music_theory"
         ]
         
         chunks = []
@@ -227,8 +252,13 @@ class MusicDataScraper:
             response = self._make_request(base_url)
             if not response:
                 return chunks
-                
-            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Check if response is XML and parse accordingly
+            content_type = response.headers.get('content-type', '').lower()
+            if 'xml' in content_type:
+                soup = BeautifulSoup(response.text, 'xml')
+            else:
+                soup = BeautifulSoup(response.text, 'html.parser')
             
             # Extract main content from the landing page
             main_content = self._extract_main_content(soup, site_name)
@@ -303,6 +333,14 @@ class MusicDataScraper:
             article = soup.find('article') or soup.find('div', class_='article-body')
             if article:
                 content = article.get_text(separator='\n').strip()
+                
+        elif 'wikipedia.org' in site_name:
+            content_div = soup.find('div', id='mw-content-text')
+            if content_div:
+                # Remove tables, infoboxes, and other non-prose elements
+                for table in content_div.find_all(['table', 'div'], class_=['infobox', 'navbox', 'vertical-navbox', 'box-B', 'metadata', 'thumb', 'reference']):
+                    table.decompose()
+                content = content_div.get_text(separator='\n').strip()
                 
         else:
             # Generic content extraction
@@ -383,7 +421,13 @@ class MusicDataScraper:
             if not response:
                 return chunks
             
-            soup = BeautifulSoup(response.text, 'html.parser')
+            # Check if response is XML and parse accordingly
+            content_type = response.headers.get('content-type', '').lower()
+            if 'xml' in content_type:
+                soup = BeautifulSoup(response.text, 'xml')
+            else:
+                soup = BeautifulSoup(response.text, 'html.parser')
+            
             content = self._extract_main_content(soup, site_name)
             
             if content and len(content) > 100:  # Only process substantial content
@@ -605,7 +649,7 @@ class MusicDataScraper:
         
         # Common chord progressions to fetch
         progressions = [
-            "1,5,6,4",  # vi-IV-I-V
+            "1,5,6,4",  # I-V-vi-IV
             "1,6,4,5",  # I-vi-IV-V
             "6,4,1,5",  # vi-IV-I-V
             "2,5,1",    # ii-V-I
@@ -672,7 +716,8 @@ class MusicDataScraper:
             return
         
         documents = [chunk.content for chunk in chunks]
-        metadatas = [chunk.metadata for chunk in chunks]
+        # Sanitize metadata for ChromaDB compatibility
+        metadatas = [self._sanitize_metadata_for_chromadb(chunk.metadata) for chunk in chunks]
         ids = [chunk.chunk_id for chunk in chunks]
         
         # Add chunks in batches to avoid memory issues
@@ -763,45 +808,57 @@ class MusicDataScraper:
         print("="*50)
 
     def parse_tuxguitar_files(self, gp_filepaths: List[str]) -> List[MusicChunk]:
-        """Parse TuxGuitar .gp3/.gp5 files using PyGuitarPro and extract tab chunks."""
-        import guitarpro
-        from music21 import key as m21key
-
+        """Parse TuxGuitar .gp3/.gp4/.gp5 files using PyGuitarPro and extract tab chunks including string/fret positions."""
         chunks = []
         for filepath in gp_filepaths:
             try:
-                song = guitarpro.parse(filepath)
+                if not os.path.exists(filepath):
+                    logger.warning(f"TuxGuitar file not found: {filepath}")
+                    continue
+                    
+                # Fix: Use correct guitarpro method
+                song = guitarpro.open(filepath)
                 title = song.title or os.path.basename(filepath)
                 tempo = song.tempo
-                for track in song.tracks:
+                
+                for track_idx, track in enumerate(song.tracks):
                     if not track.isPercussionTrack:
                         for measure_num, measure in enumerate(track.measures, 1):
-                            for voice in measure.voices:
-                                for beat in voice.beats:
-                                    notes = [str(n.note) for n in beat.notes]
-                                    chord = beat.chord.name if beat.chord else None
-                                    # Key analysis via music21 (if possible)
-                                    midi_notes = [n.value for n in beat.notes if hasattr(n, 'value')]
-                                    m21_key = None
-                                    if midi_notes:
-                                        try:
-                                            s = music21.stream.Stream([music21.note.Note(m) for m in midi_notes])
-                                            m21_key = str(m21key.Key(s.analyze('key').tonic.name))
-                                        except Exception:
-                                            m21_key = None
+                            for voice_idx, voice in enumerate(measure.voices):
+                                for beat_idx, beat in enumerate(voice.beats):
+                                    notes = []
+                                    string_fret = []
+                                    
+                                    for note in beat.notes:
+                                        if hasattr(note, 'string') and hasattr(note, 'value'):
+                                            notes.append(str(note.value))
+                                            string_fret.append({
+                                                "string": note.string, 
+                                                "fret": note.value
+                                            })
+                                    
+                                    chord_name = None
+                                    if hasattr(beat, 'effect') and hasattr(beat.effect, 'chord'):
+                                        chord_name = beat.effect.chord.name if beat.effect.chord else None
+                                    
+                                    # Create chunk data - convert lists to strings for ChromaDB compatibility
                                     chunk_dict = {
                                         "source": "TuxGuitar",
                                         "title": title,
+                                        "track": track_idx,
                                         "measure": measure_num,
-                                        "chord": chord,
+                                        "beat": beat_idx,
+                                        "chord": chord_name,
                                         "tempo": tempo,
-                                        "beats": [{"beat": beat.start, "notes": notes}],
-                                        "key": m21_key
+                                        "notes": ", ".join(notes) if notes else "",  # Convert to string
+                                        "string_fret": json.dumps(string_fret),  # Convert to JSON string
+                                        "duration": beat.duration.value if hasattr(beat.duration, 'value') else None
                                     }
-                                    # Chunk text and count tokens
+                                    
                                     chunk_text = json.dumps(chunk_dict)
                                     token_count = len(self.tokenizer.encode(chunk_text))
-                                    chunk_id = hashlib.md5(f"{title}{measure_num}{chunk_text}".encode()).hexdigest()
+                                    chunk_id = hashlib.md5(f"{title}{track_idx}{measure_num}{beat_idx}{chunk_text}".encode()).hexdigest()
+                                    
                                     chunk = MusicChunk(
                                         source="TuxGuitar",
                                         title=title,
@@ -811,59 +868,338 @@ class MusicDataScraper:
                                         token_count=token_count
                                     )
                                     chunks.append(chunk)
+                                    
             except Exception as e:
                 logger.error(f"Error parsing TuxGuitar file {filepath}: {e}")
+                continue
+                
+        return chunks
+
+    def parse_alphatex_files(self, alphatex_filepaths: List[str]) -> List[MusicChunk]:
+        """Parse AlphaTab alphaTex files using Node.js script."""
+        import subprocess
+        chunks = []
+        
+        for filepath in alphatex_filepaths:
+            try:
+                if not os.path.exists(filepath):
+                    logger.warning(f"AlphaTex file not found: {filepath}")
+                    continue
+                
+                # Check if Node.js script exists
+                script_path = "parse_alphatex.js"
+                if not os.path.exists(script_path):
+                    logger.error(f"Node.js parser script not found: {script_path}")
+                    logger.error("Please create the parse_alphatex.js script in your project directory")
+                    continue
+                
+                # Call Node.js script to parse alphaTex and return JSON
+                result = subprocess.run(
+                    ["node", script_path, filepath],
+                    capture_output=True, text=True, timeout=30
+                )
+                
+                if result.returncode == 0:
+                    try:
+                        data = json.loads(result.stdout)
+                        # Expect data to be a list of sections/chunks
+                        for chunk_dict in data:
+                            chunk_text = json.dumps(chunk_dict)
+                            token_count = len(self.tokenizer.encode(chunk_text))
+                            chunk_id = hashlib.md5(f"{chunk_dict.get('title','')}{chunk_text}".encode()).hexdigest()
+                            
+                            chunk = MusicChunk(
+                                source="AlphaTab",
+                                title=chunk_dict.get("title", os.path.basename(filepath)),
+                                content=chunk_text,
+                                metadata=chunk_dict,
+                                chunk_id=chunk_id,
+                                token_count=token_count
+                            )
+                            chunks.append(chunk)
+                    except json.JSONDecodeError as e:
+                        logger.error(f"Failed to parse JSON output from AlphaTex parser: {e}")
+                        logger.error(f"Output was: {result.stdout}")
+                else:
+                    logger.error(f"AlphaTab parse failed for {filepath}: {result.stderr}")
+                    
+            except FileNotFoundError:
+                logger.error("Node.js not found. Please ensure Node.js is installed and accessible from PATH.")
+            except subprocess.TimeoutExpired:
+                logger.error(f"AlphaTab parsing timed out for {filepath}")
+            except Exception as e:
+                logger.error(f"Error parsing AlphaTab file {filepath}: {e}")
+                
+        return chunks
+
+    def parse_midi_files(self, midi_filepaths: List[str]) -> List[MusicChunk]:
+        """Parse MIDI files using music21 for notes and timing."""
+        chunks = []
+        
+        for filepath in midi_filepaths:
+            try:
+                if not os.path.exists(filepath):
+                    logger.warning(f"MIDI file not found: {filepath}")
+                    continue
+                    
+                midi_score = music21.converter.parse(filepath)
+                title = os.path.basename(filepath)
+                
+                # Extract tempo if available
+                tempo = None
+                # Fix: Use flatten() instead of .flat
+                for element in midi_score.flatten():
+                    if isinstance(element, music21.tempo.TempoIndication):
+                        tempo = element.number
+                        break
+                
+                # Process each part
+                for part_idx, part in enumerate(midi_score.parts):
+                    measures = part.getElementsByClass('Measure')
+                    
+                    if not measures:
+                        # If no measures, treat the whole part as one section
+                        notes = []
+                        # Fix: Use flatten() instead of .flat
+                        for element in part.flatten().notes:
+                            if hasattr(element, 'nameWithOctave'):
+                                notes.append(str(element.nameWithOctave))
+                            elif hasattr(element, 'pitches'):  # Chord
+                                chord_notes = [str(p.nameWithOctave) for p in element.pitches]
+                                notes.extend(chord_notes)
+                        
+                        chunk_dict = {
+                            "source": "GuitarTrainer",
+                            "title": title,
+                            "part": part_idx,
+                            "measure": 1,
+                            "notes": ", ".join(notes),  # Convert to string for ChromaDB
+                            "tempo": tempo
+                        }
+                        
+                        chunk_text = json.dumps(chunk_dict)
+                        token_count = len(self.tokenizer.encode(chunk_text))
+                        chunk_id = hashlib.md5(f"{title}{part_idx}1{chunk_text}".encode()).hexdigest()
+                        
+                        chunk = MusicChunk(
+                            source="GuitarTrainer",
+                            title=title,
+                            content=chunk_text,
+                            metadata=chunk_dict,
+                            chunk_id=chunk_id,
+                            token_count=token_count
+                        )
+                        chunks.append(chunk)
+                    else:
+                        # Process each measure
+                        for measure in measures:
+                            measure_number = measure.number if hasattr(measure, 'number') else 1
+                            notes = []
+                            
+                            for element in measure.notes:
+                                if hasattr(element, 'nameWithOctave'):
+                                    notes.append(str(element.nameWithOctave))
+                                elif hasattr(element, 'pitches'):  # Chord
+                                    chord_notes = [str(p.nameWithOctave) for p in element.pitches]
+                                    notes.extend(chord_notes)
+                            
+                            if notes:  # Only create chunk if there are notes
+                                chunk_dict = {
+                                    "source": "GuitarTrainer",
+                                    "title": title,
+                                    "part": part_idx,
+                                    "measure": measure_number,
+                                    "notes": ", ".join(notes),  # Convert to string for ChromaDB
+                                    "tempo": tempo
+                                }
+                                
+                                chunk_text = json.dumps(chunk_dict)
+                                token_count = len(self.tokenizer.encode(chunk_text))
+                                chunk_id = hashlib.md5(f"{title}{part_idx}{measure_number}{chunk_text}".encode()).hexdigest()
+                                
+                                chunk = MusicChunk(
+                                    source="GuitarTrainer",
+                                    title=title,
+                                    content=chunk_text,
+                                    metadata=chunk_dict,
+                                    chunk_id=chunk_id,
+                                    token_count=token_count
+                                )
+                                chunks.append(chunk)
+                                
+            except Exception as e:
+                logger.error(f"Error parsing MIDI file {filepath}: {e}")
+                continue
+                
         return chunks
 
     def parse_freetar_ascii_tabs(self, tab_filepaths: List[str]) -> List[MusicChunk]:
         """Parse freetar ASCII tab files, segment by verse/chorus."""
         chunks = []
+        
         for filepath in tab_filepaths:
             try:
-                with open(filepath, 'r', encoding='utf-8') as f:
+                if not os.path.exists(filepath):
+                    logger.warning(f"Freetar tab file not found: {filepath}")
+                    continue
+                    
+                with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
                     content = f.read()
+                
                 # Segment by verse/chorus using simple regex
-                segments = re.split(r'(Verse|Chorus|Bridge|Solo)', content, flags=re.IGNORECASE)
+                segments = re.split(r'(Verse|Chorus|Bridge|Solo|Intro|Outro)', content, flags=re.IGNORECASE)
                 title = os.path.basename(filepath)
-                for i in range(1, len(segments), 2):
-                    section = segments[i]
-                    tab_text = segments[i+1] if (i+1) < len(segments) else ""
-                    chunk_dict = {
+                
+                # If content starts with a section, segments[0] will be empty or intro content
+                if segments and segments[0].strip():
+                    chunk_dict_intro = {
                         "source": "freetar",
                         "title": title,
-                        "section": section,
-                        "tab": tab_text
+                        "section": "Intro",
+                        "tab": segments[0].strip()
                     }
-                    chunk_text = json.dumps(chunk_dict)
-                    token_count = len(self.tokenizer.encode(chunk_text))
-                    chunk_id = hashlib.md5(f"{title}{section}{chunk_text}".encode()).hexdigest()
-                    chunk = MusicChunk(
+                    chunk_text_intro = json.dumps(chunk_dict_intro)
+                    token_count_intro = len(self.tokenizer.encode(chunk_text_intro))
+                    chunk_id_intro = hashlib.md5(f"{title}Intro{chunk_text_intro}".encode()).hexdigest()
+                    
+                    chunks.append(MusicChunk(
                         source="freetar",
                         title=title,
-                        content=chunk_text,
-                        metadata=chunk_dict,
-                        chunk_id=chunk_id,
-                        token_count=token_count
-                    )
-                    chunks.append(chunk)
+                        content=chunk_text_intro,
+                        metadata=chunk_dict_intro,
+                        chunk_id=chunk_id_intro,
+                        token_count=token_count_intro
+                    ))
+
+                # Process section pairs (section_name, section_content)
+                for i in range(1, len(segments), 2):
+                    if i < len(segments):
+                        section = segments[i].strip()
+                        tab_text = segments[i+1].strip() if (i+1) < len(segments) else ""
+                        
+                        if tab_text:
+                            chunk_dict = {
+                                "source": "freetar",
+                                "title": title,
+                                "section": section,
+                                "tab": tab_text
+                            }
+                            chunk_text = json.dumps(chunk_dict)
+                            token_count = len(self.tokenizer.encode(chunk_text))
+                            chunk_id = hashlib.md5(f"{title}{section}{chunk_text}".encode()).hexdigest()
+                            
+                            chunk = MusicChunk(
+                                source="freetar",
+                                title=title,
+                                content=chunk_text,
+                                metadata=chunk_dict,
+                                chunk_id=chunk_id,
+                                token_count=token_count
+                            )
+                            chunks.append(chunk)
+                            
             except Exception as e:
                 logger.error(f"Error parsing freetar tab {filepath}: {e}")
+                continue
+                
+        return chunks
+
+    def parse_tabs_lite_files(self, filepaths: List[str]) -> List[MusicChunk]:
+        """Parse Tabs-Lite offline tab files or custom tab text files."""
+        chunks = []
+        
+        for filepath in filepaths:
+            try:
+                if not os.path.exists(filepath):
+                    logger.warning(f"Tabs-Lite file not found: {filepath}")
+                    continue
+                    
+                with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                    content = f.read()
+                
+                # Parse basic metadata
+                title_match = re.search(r'(?:TITLE|Title):\s*(.*)', content, re.IGNORECASE)
+                key_match = re.search(r'(?:KEY|Key):\s*(.*)', content, re.IGNORECASE)
+                artist_match = re.search(r'(?:ARTIST|Artist):\s*(.*)', content, re.IGNORECASE)
+                
+                # Extract chord patterns
+                chords_raw = re.findall(r'\|([A-G][b#]?(?:maj|min|dim|aug|sus|add)?\d*)\s*\|', content)
+                chords_raw.extend(re.findall(r'\b([A-G][b#]?(?:maj|min|dim|aug|sus|add)?\d*)\b', content))
+                
+                title = title_match.group(1).strip() if title_match else os.path.basename(filepath)
+                key = key_match.group(1).strip() if key_match else "Unknown"
+                artist = artist_match.group(1).strip() if artist_match else "Unknown"
+                
+                # Remove duplicates from chords and convert to string for ChromaDB
+                unique_chords = list(set(chords_raw))
+                
+                chunk_dict = {
+                    "source": "Tabs-Lite",
+                    "title": title,
+                    "artist": artist,
+                    "key": key,
+                    "chords": ", ".join(unique_chords),  # Convert to string for ChromaDB
+                    "content_preview": content[:500] + "..." if len(content) > 500 else content
+                }
+                
+                chunk_text = json.dumps(chunk_dict)
+                token_count = len(self.tokenizer.encode(chunk_text))
+                chunk_id = hashlib.md5(f"{title}{filepath}{chunk_text}".encode()).hexdigest()
+                
+                chunk = MusicChunk(
+                    source="Tabs-Lite",
+                    title=title,
+                    content=chunk_text,
+                    metadata=chunk_dict,
+                    chunk_id=chunk_id,
+                    token_count=token_count
+                )
+                chunks.append(chunk)
+                
+            except Exception as e:
+                logger.error(f"Error parsing Tabs-Lite file {filepath}: {e}")
+                continue
+                
         return chunks
 
     def test_ingest_and_query_chromadb(self, chunks: List[MusicChunk], query_text: str):
-        """Test ingesting chunks to ChromaDB and querying for similarity."""
+        """Test ingestion of chunks to ChromaDB and perform a sample query."""
+        logger.info(f"Testing ChromaDB ingestion and query with {len(chunks)} chunks...")
+        
+        # Clear existing collection for a clean test
+        try:
+            self.chroma_client.delete_collection("guitar_tools")
+            self.collection = self.chroma_client.get_or_create_collection("guitar_tools")
+            logger.info("ChromaDB collection cleared for test.")
+        except Exception as e:
+            logger.warning(f"Could not clear ChromaDB collection (might not exist): {e}")
+
+        # Save chunks to ChromaDB
         self.save_to_chromadb(chunks)
-        # Query for similarity
+        
+        # Perform a simple query without embeddings (using built-in similarity)
         try:
             results = self.collection.query(
                 query_texts=[query_text],
-                n_results=5
+                n_results=min(3, len(chunks)),
+                include=['documents', 'metadatas']
             )
-            print("\nChromaDB Similarity Query Results:")
-            for doc, meta in zip(results['documents'][0], results['metadatas'][0]):
-                print(f"Title: {meta.get('title')}\nContent: {doc[:120]}...\n---")
+            
+            print(f"\n--- ChromaDB Query Results for '{query_text}' ---")
+            if results and results['documents'] and results['documents'][0]:
+                for i, doc in enumerate(results['documents'][0]):
+                    metadata = results['metadatas'][0][i] if results['metadatas'] and results['metadatas'][0] else {}
+                    print(f"Result {i+1}:")
+                    print(f"  Source: {metadata.get('source', 'N/A')}")
+                    print(f"  Title: {metadata.get('title', 'N/A')}")
+                    print(f"  Content (excerpt): {doc[:200]}...")
+                    print("-" * 20)
+            else:
+                print("No relevant results found.")
+                
         except Exception as e:
-            logger.error(f"Error querying ChromaDB: {e}")
+            logger.error(f"Error during ChromaDB query test: {e}")
+
 
 def main():
     """Main execution function"""
@@ -873,32 +1209,68 @@ def main():
     # Optional: Set HookTheory token if available
     hooktheory_token = os.getenv('HOOKTHEORY_TOKEN')  # Set this in your environment
     
-    # --- Phase 1: TuxGuitar and freetar ---
+    # Create a 'samples' directory if it doesn't exist
+    Path("samples").mkdir(exist_ok=True)
+
+    # --- Phase 1: TuxGuitar, freetar, and Tabs-Lite ---
+    logger.info("--- Phase 1: Processing local tab files ---")
+    
+    # File paths - UPDATE THESE WITH YOUR ACTUAL FILES
     tuxguitar_files = [
-        # Add paths to sample .gp3/.gp5 files here
-        "samples/song1.gp3",
-        "samples/song2.gp5"
+        "samples/sample.gp3",  # Download from TuxGuitar examples or Songsterr
+        # Add more .gp3, .gp4, .gp5 files as needed
     ]
+    
     freetar_tabs = [
-        # Add paths to sample ASCII tab files here
-        "samples/tab1.txt",
-        "samples/tab2.txt"
+        "samples/tab1.txt",  # Create or download ASCII tabs
+        # Add more tab files as needed
     ]
+    
+    tabs_lite_files = [
+        "samples/sample_chords.txt",  # Create simple chord/tab files
+        # Add more tab files as needed
+    ]
+    
+    guitar_trainer_midi_files = [
+        "samples/sample.mid",  # Download MIDI files from sources mentioned above
+        # Add more MIDI files as needed
+    ]
+    
+    alphatex_files = [
+        "samples/alphatab_sample.atx",  # Create AlphaTex files using the format shown above
+        # Add more AlphaTex files as needed
+    ]
+
+    # Parse all file types
     tux_chunks = scraper.parse_tuxguitar_files(tuxguitar_files)
     freetar_chunks = scraper.parse_freetar_ascii_tabs(freetar_tabs)
-    all_phase1_chunks = tux_chunks + freetar_chunks
-    scraper.save_chunks_to_json(all_phase1_chunks, "phase1_tab_chunks")
+    tabs_lite_chunks = scraper.parse_tabs_lite_files(tabs_lite_files)
+    midi_chunks = scraper.parse_midi_files(guitar_trainer_midi_files)
+    alphatex_chunks = scraper.parse_alphatex_files(alphatex_files)
 
-    # Test ingest and query
+    all_phase1_chunks = tux_chunks + freetar_chunks + tabs_lite_chunks + midi_chunks + alphatex_chunks
+    
     if all_phase1_chunks:
-        scraper.test_ingest_and_query_chromadb(all_phase1_chunks, query_text="Cmaj7 chord progression")
+        scraper.save_chunks_to_json(all_phase1_chunks, "phase1_local_file_chunks")
+        # Test ingest and query with Phase 1 chunks
+        scraper.test_ingest_and_query_chromadb(all_phase1_chunks, query_text="guitar chords and progressions")
+    else:
+        logger.warning("No chunks generated in Phase 1 (local files). Check if sample files exist and are valid.")
 
-    # ...existing code...
-    # Continue with full scraping pipeline as before
-    chunks = scraper.run_full_scrape(hooktheory_token=hooktheory_token)
+    # --- Phase 2: Web Scraping and API Data ---
+    logger.info("--- Phase 2: Web Scraping and API Data ---")
+    
+    web_chunks = scraper.run_full_scrape(hooktheory_token=hooktheory_token)
+    
+    # Combine all chunks
+    all_chunks = all_phase1_chunks + web_chunks
+    
     print(f"\nScraping completed successfully!")
     print(f"Data saved to: {scraper.output_dir}")
-    print(f"Total chunks collected: {len(chunks)}")
+    print(f"Phase 1 (local files): {len(all_phase1_chunks)} chunks")
+    print(f"Phase 2 (web scraping): {len(web_chunks)} chunks") 
+    print(f"Total chunks collected: {len(all_chunks)}")
+
 
 if __name__ == "__main__":
     main()
