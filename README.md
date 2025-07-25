@@ -23,7 +23,7 @@ Creates searchable chunks with metadata (source, difficulty, topic, etc.)
 # Installation (prereqs, and file structure, and changing file paths)
 <img width="418" height="332" alt="image" src="https://github.com/user-attachments/assets/ff38cc75-63dd-433a-8a53-08e8d592ebb4" />
 
-<img width="412" height="271" alt="image" src="https://github.com/user-attachments/assets/d02e38d8-be7d-4d2c-aa86-4537b01b94f0" />
+
 
 
 
