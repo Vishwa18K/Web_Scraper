@@ -25,23 +25,7 @@ Creates searchable chunks with metadata (source, difficulty, topic, etc.)
 
 <img width="412" height="271" alt="image" src="https://github.com/user-attachments/assets/d02e38d8-be7d-4d2c-aa86-4537b01b94f0" />
 
-# known problems 
-1. TuxGuitar Library Issue
-Problem: module 'guitarpro' has no attribute 'open'
-Fix: Install the correct library:
-bashpip install guitar-pro  # or try: pip install PyGuitarPro
 
-2. Missing XML Parser
-Problem: Couldn't find a tree builder with the features you requested: xml
-Fix: Install lxml:
-bashpip install lxml
-
-3. Ultimate Guitar URLs Are Dead
-The hardcoded Ultimate Guitar URLs return 404 errors. You'll need to find fresh, valid URLs or comment out that section.
-4. Duplicate ID Errors in ChromaDB
-The script may generate duplicate chunk IDs, causing database errors. This is handled gracefully but may reduce total chunks stored.
-5. Website Access Issues
-Some sites block the scraper (403 Forbidden) or have connection timeouts. This is expected behavior for some protected sites.
 
 
 # Output Files
