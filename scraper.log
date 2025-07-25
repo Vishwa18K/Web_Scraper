@@ -282,3 +282,577 @@
 2025-07-23 16:33:39,499 - INFO - Added 786 chunks to ChromaDB
 2025-07-23 16:33:39,546 - INFO - Saved 786 chunks to music_rag_data\complete_music_dataset.json
 2025-07-23 16:33:39,546 - INFO - Scraping complete! Total chunks: 786
+2025-07-24 16:59:16,145 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-24 16:59:16,710 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-24 16:59:16,711 - ERROR - Error parsing TuxGuitar file samples/sample.gp3: module 'guitarpro' has no attribute 'open'
+2025-07-24 16:59:16,717 - WARNING - Tabs-Lite file not found: samples/sample_chords.txt
+2025-07-24 16:59:20,542 - INFO - Saved 620 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-24 16:59:20,543 - INFO - Testing ChromaDB ingestion and query with 620 chunks...
+2025-07-24 16:59:20,781 - INFO - ChromaDB collection cleared for test.
+2025-07-24 17:00:12,821 - INFO - Added 620 chunks to ChromaDB
+2025-07-24 17:00:13,208 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-24 17:00:13,209 - INFO - Starting full scraping pipeline...
+2025-07-24 17:00:13,209 - INFO - Scraping educational music websites...
+2025-07-24 17:00:23,643 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000020C1FDC1BD0>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-24 17:00:23,644 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-24 17:00:48,500 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-24 17:01:02,448 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-24 17:01:07,062 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-24 17:01:11,559 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-24 17:01:58,545 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-24 17:02:27,663 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-24 17:02:29,937 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-24 17:02:41,309 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-24 17:02:57,180 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-24 17:02:59,387 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-24 17:02:59,388 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-24 17:03:01,768 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-24 17:03:01,769 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-24 17:03:30,797 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-24 17:03:32,838 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-24 17:03:32,839 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-24 17:03:33,125 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-24 17:03:34,065 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-24 17:03:35,057 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593
+2025-07-24 17:03:35,058 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-24 17:03:35,059 - INFO - Scraping awesome-guitar resources...
+2025-07-24 17:03:41,016 - INFO - Saved 10 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-24 17:03:41,019 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 9e4a4599c1c705780452aeedd191ad74, 59c8d1a079a6ecd08faa1eb8a531b710, 373de987838f7b5fea7e9a3bdf15d210, c402d5352c1737bc185c52daa25ebc86, b55bc0db67338b5cc26d55c2b34ea4de in add.
+2025-07-24 17:03:41,020 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-24 17:04:28,731 - INFO - Added 785 chunks to ChromaDB
+2025-07-24 17:04:28,773 - INFO - Saved 785 chunks to music_rag_data\complete_music_dataset.json
+2025-07-24 17:04:28,774 - INFO - Scraping complete! Total chunks: 785
+2025-07-24 18:12:31,449 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-24 18:12:31,703 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-24 18:12:31,805 - WARNING - Tabs-Lite file not found: samples/sample_chords.txt
+2025-07-24 18:12:32,337 - INFO - Saved 1347 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-24 18:12:32,338 - INFO - Testing ChromaDB ingestion and query with 1347 chunks...
+2025-07-24 18:12:32,781 - INFO - ChromaDB collection cleared for test.
+2025-07-24 18:12:41,174 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-24 18:12:48,377 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-24 18:12:55,547 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-24 18:13:04,559 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-24 18:13:12,277 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-24 18:13:19,909 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-24 18:13:28,179 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-24 18:13:38,321 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-24 18:14:33,922 - INFO - Added 1347 chunks to ChromaDB
+2025-07-24 18:14:34,412 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-24 18:14:34,412 - INFO - Starting full scraping pipeline...
+2025-07-24 18:14:34,412 - INFO - Scraping educational music websites...
+2025-07-24 18:14:44,567 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001F45ADABD90>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-24 18:14:44,568 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-24 18:15:09,300 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-24 18:15:22,687 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-24 18:15:27,911 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-24 18:15:32,308 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-24 18:15:58,666 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-24 18:16:29,047 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-24 18:16:31,307 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-24 18:16:42,506 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-24 18:16:57,945 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-24 18:17:00,197 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-24 18:17:00,197 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-24 18:17:02,432 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-24 18:17:02,432 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-24 18:17:31,785 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-24 18:17:33,828 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-24 18:17:33,828 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-24 18:17:34,129 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-24 18:17:35,055 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-24 18:17:36,619 - ERROR - Error scraping http://gprotab.net/en/tabs/the-beatles/let-it-be: cannot access local variable 'text_chunks' where it is not associated with a value
+2025-07-24 18:17:36,621 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-24 18:17:36,621 - INFO - Scraping awesome-guitar resources...
+2025-07-24 18:17:41,581 - INFO - Saved 10 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-24 18:17:41,584 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 373de987838f7b5fea7e9a3bdf15d210, 59c8d1a079a6ecd08faa1eb8a531b710, c402d5352c1737bc185c52daa25ebc86, 9e4a4599c1c705780452aeedd191ad74, b55bc0db67338b5cc26d55c2b34ea4de in add.
+2025-07-24 18:17:41,585 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-24 18:18:31,024 - INFO - Added 785 chunks to ChromaDB
+2025-07-24 18:18:31,080 - INFO - Saved 785 chunks to music_rag_data\complete_music_dataset.json
+2025-07-24 18:18:31,081 - INFO - Scraping complete! Total chunks: 785
+2025-07-25 12:46:59,688 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-25 12:47:00,878 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-25 12:47:01,130 - WARNING - Tabs-Lite file not found: samples/sample_chords.txt
+2025-07-25 12:47:07,037 - INFO - Saved 1347 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-25 12:47:07,038 - INFO - Testing ChromaDB ingestion and query with 1347 chunks...
+2025-07-25 12:47:07,817 - INFO - ChromaDB collection cleared for test.
+2025-07-25 12:47:28,612 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 12:47:43,934 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 12:47:57,887 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 12:48:15,907 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 12:49:21,669 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 12:49:33,095 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 12:49:42,495 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 12:49:51,849 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 12:51:02,526 - INFO - Added 1347 chunks to ChromaDB
+2025-07-25 12:51:03,833 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-25 12:51:03,836 - INFO - Starting full scraping pipeline...
+2025-07-25 12:51:03,843 - INFO - Scraping educational music websites...
+2025-07-25 12:51:14,621 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002C5A4753D90>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-25 12:51:14,622 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-25 12:51:39,465 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-25 12:52:01,541 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-25 12:52:07,277 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-25 12:52:11,749 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-25 12:53:01,077 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-25 12:53:31,714 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-25 12:53:34,048 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-25 12:53:45,789 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-25 12:54:02,025 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-25 12:54:04,247 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-25 12:54:04,248 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-25 12:54:06,451 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-25 12:54:06,452 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-25 12:54:36,272 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-25 12:54:38,320 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-25 12:54:38,321 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-25 12:54:38,636 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-25 12:54:39,553 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-25 12:54:41,374 - ERROR - Error scraping http://gprotab.net/en/tabs/the-beatles/let-it-be: cannot access local variable 'text_chunks' where it is not associated with a value
+2025-07-25 12:54:41,376 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-25 12:54:41,376 - INFO - Scraping awesome-guitar resources...
+2025-07-25 12:54:46,297 - INFO - Saved 10 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-25 12:54:46,301 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 9e4a4599c1c705780452aeedd191ad74, 59c8d1a079a6ecd08faa1eb8a531b710, c402d5352c1737bc185c52daa25ebc86, b55bc0db67338b5cc26d55c2b34ea4de, 373de987838f7b5fea7e9a3bdf15d210 in add.
+2025-07-25 12:54:46,302 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-25 12:55:53,656 - INFO - Added 785 chunks to ChromaDB
+2025-07-25 12:55:53,702 - INFO - Saved 785 chunks to music_rag_data\complete_music_dataset.json
+2025-07-25 12:55:53,703 - INFO - Scraping complete! Total chunks: 785
+2025-07-25 13:29:21,793 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-25 13:29:22,049 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-25 13:40:50,939 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-25 13:40:51,184 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-25 13:40:51,296 - WARNING - Tabs-Lite file not found: samples/sample_chords.txt
+2025-07-25 13:40:52,873 - INFO - Saved 1347 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-25 13:40:52,873 - INFO - Testing ChromaDB ingestion and query with 1347 chunks...
+2025-07-25 13:40:53,342 - INFO - ChromaDB collection cleared for test.
+2025-07-25 13:41:02,307 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 13:41:11,377 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 13:41:19,441 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 13:41:28,071 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 13:41:35,668 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 13:41:43,227 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 13:41:50,885 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 13:41:58,678 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 13:42:50,177 - INFO - Added 1347 chunks to ChromaDB
+2025-07-25 13:42:50,664 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-25 13:42:50,665 - INFO - Starting full scraping pipeline...
+2025-07-25 13:42:50,665 - INFO - Scraping educational music websites...
+2025-07-25 13:43:00,857 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015339F68410>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-25 13:43:00,858 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-25 13:43:25,700 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-25 13:43:45,041 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-25 13:43:49,505 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-25 13:43:54,048 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-25 13:44:44,355 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-25 13:45:16,370 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-25 13:45:18,660 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-25 13:45:30,122 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-25 13:45:45,909 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-25 13:45:48,150 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-25 13:45:48,151 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-25 13:45:50,413 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-25 13:45:50,413 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-25 13:46:19,617 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-25 13:46:21,665 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-25 13:46:21,665 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-25 13:46:21,987 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-25 13:46:22,905 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-25 13:46:24,495 - ERROR - Error scraping http://gprotab.net/en/tabs/the-beatles/let-it-be: cannot access local variable 'text_chunks' where it is not associated with a value
+2025-07-25 13:46:24,497 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-25 13:46:24,498 - INFO - Scraping awesome-guitar resources...
+2025-07-25 13:46:29,916 - INFO - Saved 10 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-25 13:46:29,918 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 9e4a4599c1c705780452aeedd191ad74, b55bc0db67338b5cc26d55c2b34ea4de, 373de987838f7b5fea7e9a3bdf15d210, 59c8d1a079a6ecd08faa1eb8a531b710, c402d5352c1737bc185c52daa25ebc86 in add.
+2025-07-25 13:46:29,919 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-25 13:47:25,109 - INFO - Added 785 chunks to ChromaDB
+2025-07-25 13:47:25,154 - INFO - Saved 785 chunks to music_rag_data\complete_music_dataset.json
+2025-07-25 13:47:25,154 - INFO - Scraping complete! Total chunks: 785
+2025-07-25 14:32:04,946 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-25 14:32:05,538 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-25 14:32:07,162 - INFO - Saved 1348 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-25 14:32:07,162 - INFO - Testing ChromaDB ingestion and query with 1348 chunks...
+2025-07-25 14:32:07,411 - INFO - ChromaDB collection cleared for test.
+2025-07-25 14:32:16,832 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 14:32:24,272 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 14:32:31,776 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 14:32:39,988 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 14:32:48,571 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 14:32:56,357 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 14:33:04,011 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 14:33:11,609 - ERROR - Error adding batch to ChromaDB: argument 'metadatas': failed to extract enum MetadataValue ('Bool | Int | Float | Str')
+- variant Bool (Bool): TypeError: failed to extract field MetadataValue::Bool.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyBool'
+- variant Int (Int): TypeError: failed to extract field MetadataValue::Int.0, caused by TypeError: 'NoneType' object cannot be interpreted as an integer
+- variant Float (Float): TypeError: failed to extract field MetadataValue::Float.0, caused by TypeError: must be real number, not NoneType
+- variant Str (Str): TypeError: failed to extract field MetadataValue::Str.0, caused by TypeError: 'NoneType' object cannot be converted to 'PyString'
+2025-07-25 14:33:58,474 - INFO - Added 1348 chunks to ChromaDB
+2025-07-25 14:33:58,936 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-25 14:33:58,937 - INFO - Starting full scraping pipeline...
+2025-07-25 14:33:58,937 - INFO - Scraping educational music websites...
+2025-07-25 14:34:09,098 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000229F5773C50>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-25 14:34:09,099 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-25 14:34:34,100 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-25 14:34:54,853 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-25 14:34:59,983 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-25 14:35:04,393 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-25 14:35:56,686 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-25 14:36:27,071 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-25 14:36:29,488 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-25 14:36:40,736 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-25 14:36:57,016 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-25 14:36:59,287 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-25 14:36:59,287 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-25 14:37:01,505 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-25 14:37:01,506 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-25 14:37:30,972 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-25 14:37:33,010 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-25 14:37:33,010 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-25 14:37:33,385 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-25 14:37:34,248 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-25 14:37:35,825 - ERROR - Error scraping http://gprotab.net/en/tabs/the-beatles/let-it-be: cannot access local variable 'text_chunks' where it is not associated with a value
+2025-07-25 14:37:35,828 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-25 14:37:35,829 - INFO - Scraping awesome-guitar resources...
+2025-07-25 14:37:41,011 - INFO - Saved 10 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-25 14:37:41,014 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 373de987838f7b5fea7e9a3bdf15d210, 9e4a4599c1c705780452aeedd191ad74, b55bc0db67338b5cc26d55c2b34ea4de, 59c8d1a079a6ecd08faa1eb8a531b710, c402d5352c1737bc185c52daa25ebc86 in add.
+2025-07-25 14:37:41,015 - ERROR - Error adding batch to ChromaDB: Expected IDs to be unique, found duplicates of: 564494d6678decf7809c1dc29e69148b in add.
+2025-07-25 14:38:29,850 - INFO - Added 785 chunks to ChromaDB
+2025-07-25 14:38:29,893 - INFO - Saved 785 chunks to music_rag_data\complete_music_dataset.json
+2025-07-25 14:38:29,894 - INFO - Scraping complete! Total chunks: 785
+2025-07-25 14:45:30,164 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-25 14:45:30,749 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-25 14:45:30,813 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-25 14:45:31,663 - INFO - Saved 1350 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-25 14:45:31,663 - INFO - Testing ChromaDB ingestion and query with 1350 chunks...
+2025-07-25 14:45:31,917 - INFO - ChromaDB collection cleared for test.
+2025-07-25 14:45:41,849 - INFO - Successfully added batch 1 to ChromaDB
+2025-07-25 14:45:52,674 - INFO - Successfully added batch 2 to ChromaDB
+2025-07-25 14:46:02,370 - INFO - Successfully added batch 3 to ChromaDB
+2025-07-25 14:46:12,703 - INFO - Successfully added batch 4 to ChromaDB
+2025-07-25 14:46:22,062 - INFO - Successfully added batch 5 to ChromaDB
+2025-07-25 14:46:29,728 - INFO - Successfully added batch 6 to ChromaDB
+2025-07-25 14:46:37,557 - INFO - Successfully added batch 7 to ChromaDB
+2025-07-25 14:46:46,702 - INFO - Successfully added batch 8 to ChromaDB
+2025-07-25 14:46:55,341 - INFO - Successfully added batch 9 to ChromaDB
+2025-07-25 14:47:04,316 - INFO - Successfully added batch 10 to ChromaDB
+2025-07-25 14:47:14,333 - INFO - Successfully added batch 11 to ChromaDB
+2025-07-25 14:47:24,263 - INFO - Successfully added batch 12 to ChromaDB
+2025-07-25 14:47:33,723 - INFO - Successfully added batch 13 to ChromaDB
+2025-07-25 14:47:38,747 - INFO - Successfully added batch 14 to ChromaDB
+2025-07-25 14:47:38,747 - INFO - Added 1350 chunks to ChromaDB
+2025-07-25 14:47:39,266 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-25 14:47:39,266 - INFO - Starting full scraping pipeline...
+2025-07-25 14:47:39,266 - INFO - Scraping educational music websites...
+2025-07-25 14:47:49,423 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000016E2C207250>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-25 14:47:49,424 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-25 14:48:14,214 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-25 14:48:43,903 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-25 14:48:49,066 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-25 14:48:53,474 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-25 14:49:28,992 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-25 14:49:59,815 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-25 14:50:02,113 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-25 14:50:13,377 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-25 14:50:30,125 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-25 14:50:32,372 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-25 14:50:32,372 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-25 14:50:34,599 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-25 14:50:34,599 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-25 14:51:04,163 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-25 14:51:06,201 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-25 14:51:06,202 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-25 14:51:06,532 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-25 14:51:07,488 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-25 14:51:09,017 - ERROR - Error scraping http://gprotab.net/en/tabs/the-beatles/let-it-be: cannot access local variable 'text_chunks' where it is not associated with a value
+2025-07-25 14:51:09,019 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-25 14:51:09,020 - INFO - Scraping awesome-guitar resources...
+2025-07-25 14:51:14,266 - INFO - Saved 10 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-25 14:51:23,611 - INFO - Successfully added batch 1 to ChromaDB
+2025-07-25 14:51:31,530 - INFO - Successfully added batch 2 to ChromaDB
+2025-07-25 14:51:39,739 - INFO - Successfully added batch 3 to ChromaDB
+2025-07-25 14:51:47,538 - INFO - Successfully added batch 4 to ChromaDB
+2025-07-25 14:51:56,561 - INFO - Successfully added batch 5 to ChromaDB
+2025-07-25 14:52:04,571 - INFO - Successfully added batch 6 to ChromaDB
+2025-07-25 14:52:12,175 - INFO - Successfully added batch 7 to ChromaDB
+2025-07-25 14:52:18,950 - INFO - Successfully added batch 8 to ChromaDB
+2025-07-25 14:52:18,950 - INFO - Added 785 chunks to ChromaDB
+2025-07-25 14:52:18,991 - INFO - Saved 785 chunks to music_rag_data\complete_music_dataset.json
+2025-07-25 14:52:18,992 - INFO - Scraping complete! Total chunks: 785
+2025-07-25 14:59:27,156 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-25 14:59:27,293 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-25 14:59:27,294 - INFO - File exists: samples/sample.gp3 (7685 bytes)
+2025-07-25 14:59:27,294 - INFO - File exists: samples/tab1.txt (317 bytes)
+2025-07-25 14:59:27,295 - INFO - File exists: samples/sample_chords.txt (150 bytes)
+2025-07-25 14:59:27,296 - INFO - File exists: samples/sample.mid (31365 bytes)
+2025-07-25 14:59:27,296 - INFO - File exists: samples/alphatab_sample.atx (109 bytes)
+2025-07-25 14:59:27,296 - INFO - Parsing TuxGuitar files...
+2025-07-25 14:59:27,404 - INFO - TuxGuitar chunks: 727
+2025-07-25 14:59:27,405 - INFO - Parsing freetar tabs...
+2025-07-25 14:59:27,407 - INFO - Freetar chunks: 3
+2025-07-25 14:59:27,408 - INFO - Parsing tabs-lite files...
+2025-07-25 14:59:27,410 - INFO - Tabs-lite chunks: 1
+2025-07-25 14:59:27,410 - INFO - Parsing MIDI files...
+2025-07-25 14:59:27,825 - INFO - MIDI chunks: 618
+2025-07-25 14:59:27,828 - INFO - Parsing AlphaTex files...
+2025-07-25 14:59:27,919 - INFO - AlphaTex chunks: 1
+2025-07-25 14:59:27,919 - INFO - Phase 1 total chunks: 1350
+2025-07-25 14:59:27,919 - INFO - Breakdown: TuxGuitar=727, Freetar=3, TabsLite=1, MIDI=618, AlphaTex=1
+2025-07-25 14:59:27,989 - INFO - Saved 1350 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-25 14:59:27,989 - INFO - Testing ChromaDB ingestion and query with 1350 chunks...
+2025-07-25 14:59:28,458 - INFO - ChromaDB collection cleared for test.
+2025-07-25 14:59:36,760 - INFO - Successfully added batch 1 to ChromaDB
+2025-07-25 14:59:45,164 - INFO - Successfully added batch 2 to ChromaDB
+2025-07-25 14:59:53,409 - INFO - Successfully added batch 3 to ChromaDB
+2025-07-25 15:00:01,290 - INFO - Successfully added batch 4 to ChromaDB
+2025-07-25 15:00:09,547 - INFO - Successfully added batch 5 to ChromaDB
+2025-07-25 15:00:18,975 - INFO - Successfully added batch 6 to ChromaDB
+2025-07-25 15:00:27,536 - INFO - Successfully added batch 7 to ChromaDB
+2025-07-25 15:00:35,482 - INFO - Successfully added batch 8 to ChromaDB
+2025-07-25 15:00:44,525 - INFO - Successfully added batch 9 to ChromaDB
+2025-07-25 15:00:53,350 - INFO - Successfully added batch 10 to ChromaDB
+2025-07-25 15:01:02,406 - INFO - Successfully added batch 11 to ChromaDB
+2025-07-25 15:01:11,243 - INFO - Successfully added batch 12 to ChromaDB
+2025-07-25 15:01:20,621 - INFO - Successfully added batch 13 to ChromaDB
+2025-07-25 15:01:26,304 - INFO - Successfully added batch 14 to ChromaDB
+2025-07-25 15:01:26,304 - INFO - Added 1350 chunks to ChromaDB
+2025-07-25 15:01:26,931 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-25 15:01:26,931 - INFO - Starting full scraping pipeline...
+2025-07-25 15:01:26,932 - INFO - Scraping educational music websites...
+2025-07-25 15:01:37,077 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000024C8451FED0>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-25 15:01:37,077 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-25 15:02:01,874 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-25 15:02:31,811 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-25 15:02:37,192 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-25 15:02:41,706 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-25 15:03:08,239 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-25 15:03:38,316 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-25 15:03:40,665 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-25 15:03:51,982 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-25 15:04:07,660 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-25 15:04:09,878 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-25 15:04:09,879 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-25 15:04:12,120 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-25 15:04:12,120 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-25 15:04:41,730 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-25 15:04:43,765 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-25 15:04:43,766 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-25 15:04:44,488 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-25 15:04:45,046 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-25 15:04:46,539 - ERROR - Error scraping http://gprotab.net/en/tabs/the-beatles/let-it-be: cannot access local variable 'text_chunks' where it is not associated with a value
+2025-07-25 15:04:46,541 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-25 15:04:46,541 - INFO - Scraping awesome-guitar resources...
+2025-07-25 15:04:51,577 - INFO - Saved 10 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-25 15:04:59,556 - INFO - Successfully added batch 1 to ChromaDB
+2025-07-25 15:05:07,356 - INFO - Successfully added batch 2 to ChromaDB
+2025-07-25 15:05:15,730 - INFO - Successfully added batch 3 to ChromaDB
+2025-07-25 15:05:24,854 - INFO - Successfully added batch 4 to ChromaDB
+2025-07-25 15:05:33,453 - INFO - Successfully added batch 5 to ChromaDB
+2025-07-25 15:05:41,614 - INFO - Successfully added batch 6 to ChromaDB
+2025-07-25 15:05:50,664 - INFO - Successfully added batch 7 to ChromaDB
+2025-07-25 15:05:57,921 - INFO - Successfully added batch 8 to ChromaDB
+2025-07-25 15:05:57,921 - INFO - Added 785 chunks to ChromaDB
+2025-07-25 15:05:57,968 - INFO - Saved 785 chunks to music_rag_data\complete_music_dataset.json
+2025-07-25 15:05:57,968 - INFO - Scraping complete! Total chunks: 785
+2025-07-25 15:36:44,081 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-25 15:36:44,340 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-25 15:36:44,341 - INFO - File exists: samples/sample.gp3 (7685 bytes)
+2025-07-25 15:36:44,341 - INFO - File exists: samples/tab1.txt (317 bytes)
+2025-07-25 15:36:44,342 - INFO - File exists: samples/sample_chords.txt (150 bytes)
+2025-07-25 15:36:44,342 - INFO - File exists: samples/sample.mid (31365 bytes)
+2025-07-25 15:36:44,343 - INFO - File exists: samples/alphatab_sample.atx (109 bytes)
+2025-07-25 15:36:44,343 - INFO - Parsing TuxGuitar files...
+2025-07-25 15:36:44,460 - INFO - TuxGuitar chunks: 727
+2025-07-25 15:36:44,461 - INFO - Parsing freetar tabs...
+2025-07-25 15:36:44,463 - INFO - Freetar chunks: 3
+2025-07-25 15:36:44,464 - INFO - Parsing tabs-lite files...
+2025-07-25 15:36:44,466 - INFO - Tabs-lite chunks: 1
+2025-07-25 15:36:44,466 - INFO - Parsing MIDI files...
+2025-07-25 15:36:44,856 - INFO - MIDI chunks: 618
+2025-07-25 15:36:44,856 - INFO - Parsing AlphaTex files...
+2025-07-25 15:36:44,975 - INFO - AlphaTex chunks: 1
+2025-07-25 15:36:44,976 - INFO - Phase 1 total chunks: 1350
+2025-07-25 15:36:44,976 - INFO - Breakdown: TuxGuitar=727, Freetar=3, TabsLite=1, MIDI=618, AlphaTex=1
+2025-07-25 15:36:45,041 - INFO - Saved 1350 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-25 15:36:45,042 - INFO - Testing ChromaDB ingestion and query with 1350 chunks...
+2025-07-25 15:36:45,860 - INFO - ChromaDB collection cleared for test.
+2025-07-25 15:36:54,765 - INFO - Successfully added batch 1 to ChromaDB
+2025-07-25 15:37:05,052 - INFO - Successfully added batch 2 to ChromaDB
+2025-07-25 15:37:13,605 - INFO - Successfully added batch 3 to ChromaDB
+2025-07-25 15:37:21,863 - INFO - Successfully added batch 4 to ChromaDB
+2025-07-25 15:37:29,947 - INFO - Successfully added batch 5 to ChromaDB
+2025-07-25 15:37:38,579 - INFO - Successfully added batch 6 to ChromaDB
+2025-07-25 15:37:47,254 - INFO - Successfully added batch 7 to ChromaDB
+2025-07-25 15:37:55,516 - INFO - Successfully added batch 8 to ChromaDB
+2025-07-25 15:38:03,280 - INFO - Successfully added batch 9 to ChromaDB
+2025-07-25 15:38:11,839 - INFO - Successfully added batch 10 to ChromaDB
+2025-07-25 15:38:20,346 - INFO - Successfully added batch 11 to ChromaDB
+2025-07-25 15:38:28,621 - INFO - Successfully added batch 12 to ChromaDB
+2025-07-25 15:38:37,508 - INFO - Successfully added batch 13 to ChromaDB
+2025-07-25 15:38:42,192 - INFO - Successfully added batch 14 to ChromaDB
+2025-07-25 15:38:42,193 - INFO - Added 1350 chunks to ChromaDB
+2025-07-25 15:38:42,673 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-25 15:38:42,674 - INFO - Starting full scraping pipeline...
+2025-07-25 15:38:42,674 - INFO - Scraping educational music websites...
+2025-07-25 15:38:52,812 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001A766F7BB10>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-25 15:38:52,813 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-25 15:39:17,629 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-25 15:39:42,864 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-25 15:39:47,743 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-25 15:39:52,281 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-25 15:40:26,213 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-25 15:40:55,653 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-25 15:40:57,954 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-25 15:41:09,222 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-25 15:41:25,040 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-25 15:41:27,270 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-25 15:41:27,270 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-25 15:41:29,504 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-25 15:41:29,505 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-25 15:41:58,652 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-25 15:42:00,697 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-25 15:42:00,697 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-25 15:42:01,022 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-25 15:42:01,927 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-25 15:42:03,481 - ERROR - Error scraping http://gprotab.net/en/tabs/the-beatles/let-it-be: cannot access local variable 'text_chunks' where it is not associated with a value
+2025-07-25 15:42:03,483 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-25 15:42:03,483 - INFO - Scraping awesome-guitar resources...
+2025-07-25 15:42:08,698 - INFO - Saved 10 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-25 15:42:08,698 - INFO - Scraping HookTheory data...
+2025-07-25 15:42:09,018 - INFO - Successfully authenticated with HookTheory API
+2025-07-25 15:42:09,313 - ERROR - Error scraping HookTheory progression 1,5,6,4: 401 Client Error: Unauthorized for url: https://api.hooktheory.com/v1/trends/nodes?cp=1,5,6,4
+2025-07-25 15:42:09,601 - ERROR - Error scraping HookTheory progression 1,6,4,5: 401 Client Error: Unauthorized for url: https://api.hooktheory.com/v1/trends/nodes?cp=1,6,4,5
+2025-07-25 15:42:09,860 - ERROR - Error scraping HookTheory progression 6,4,1,5: 401 Client Error: Unauthorized for url: https://api.hooktheory.com/v1/trends/nodes?cp=6,4,1,5
+2025-07-25 15:42:10,157 - ERROR - Error scraping HookTheory progression 2,5,1: 401 Client Error: Unauthorized for url: https://api.hooktheory.com/v1/trends/nodes?cp=2,5,1
+2025-07-25 15:42:10,460 - ERROR - Error scraping HookTheory progression 1,4,5,1: 401 Client Error: Unauthorized for url: https://api.hooktheory.com/v1/trends/nodes?cp=1,4,5,1
+2025-07-25 15:42:10,462 - INFO - Saved 0 chunks to music_rag_data\hooktheory_progressions.json
+2025-07-25 15:42:19,438 - INFO - Successfully added batch 1 to ChromaDB
+2025-07-25 15:42:29,198 - INFO - Successfully added batch 2 to ChromaDB
+2025-07-25 15:42:39,451 - INFO - Successfully added batch 3 to ChromaDB
+2025-07-25 15:42:47,863 - INFO - Successfully added batch 4 to ChromaDB
+2025-07-25 15:42:56,124 - INFO - Successfully added batch 5 to ChromaDB
+2025-07-25 15:43:05,426 - INFO - Successfully added batch 6 to ChromaDB
+2025-07-25 15:43:13,355 - INFO - Successfully added batch 7 to ChromaDB
+2025-07-25 15:43:20,295 - INFO - Successfully added batch 8 to ChromaDB
+2025-07-25 15:43:20,296 - INFO - Added 785 chunks to ChromaDB
+2025-07-25 15:43:20,346 - INFO - Saved 785 chunks to music_rag_data\complete_music_dataset.json
+2025-07-25 15:43:20,347 - INFO - Scraping complete! Total chunks: 785

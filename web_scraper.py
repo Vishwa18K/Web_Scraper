@@ -7,6 +7,7 @@ and educational materials for RAG system integration.
 
 import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+from dotenv import load_dotenv
 import json
 import os
 import time
@@ -126,20 +127,45 @@ class MusicDataScraper:
         """Convert metadata to ChromaDB compatible format (only str, int, float, bool, None)"""
         sanitized = {}
         for key, value in metadata.items():
-            if isinstance(value, (str, int, float, bool)) or value is None:
-                sanitized[key] = value
+            # Skip None values entirely - ChromaDB doesn't handle them well
+            if value is None:
+                continue
+                
+            if isinstance(value, (str, int, float, bool)):
+                # Only add non-empty strings
+                if isinstance(value, str) and value.strip():
+                    sanitized[key] = value.strip()
+                elif not isinstance(value, str):
+                    sanitized[key] = value
             elif isinstance(value, list):
                 # Convert lists to comma-separated strings
                 if value and all(isinstance(item, (str, int, float)) for item in value):
-                    sanitized[key] = ", ".join(str(item) for item in value)
-                else:
-                    sanitized[key] = str(value)
+                    list_str = ", ".join(str(item).strip() for item in value if str(item).strip())
+                    if list_str:  # Only add if not empty
+                        sanitized[key] = list_str
             elif isinstance(value, dict):
                 # Convert dicts to JSON strings
-                sanitized[key] = json.dumps(value)
+                try:
+                    json_str = json.dumps(value)
+                    if json_str and json_str != '{}':  # Only add if not empty
+                        sanitized[key] = json_str
+                except (TypeError, ValueError):
+                    # If can't serialize, convert to string
+                    dict_str = str(value)
+                    if dict_str and dict_str != '{}':
+                        sanitized[key] = dict_str
             else:
-                # Convert other types to strings
-                sanitized[key] = str(value)
+                # Convert other types to strings, but skip if empty
+                str_value = str(value).strip()
+                if str_value and str_value.lower() not in ['none', 'null', '']:
+                    sanitized[key] = str_value
+        
+        # Ensure we always have at least source and title
+        if 'source' not in sanitized:
+            sanitized['source'] = 'unknown'
+        if 'title' not in sanitized:
+            sanitized['title'] = 'untitled'
+            
         return sanitized
 
     def scrape_ultimate_guitar_tabs(self, song_urls: List[str]) -> List[MusicChunk]:
@@ -637,15 +663,34 @@ class MusicDataScraper:
         
         return chunks
 
-    def scrape_hooktheory_data(self, bearer_token: Optional[str] = None) -> List[MusicChunk]:
+    def scrape_hooktheory_data(self, username: Optional[str] = None, password: Optional[str] = None) -> List[MusicChunk]:
         """Scrape chord progression data from HookTheory API"""
         logger.info("Scraping HookTheory data...")
         
-        if not bearer_token:
-            logger.warning("No HookTheory bearer token provided, skipping...")
+        if not username or not password:
+            logger.warning("No HookTheory username/password provided, skipping...")
             return []
         
         chunks = []
+        
+        # First, authenticate to get the session
+        auth_url = "https://api.hooktheory.com/v1/users/auth"
+        auth_data = {
+            "username": username,
+            "password": password
+        }
+        
+        try:
+            # Authenticate
+            auth_response = self.session.post(auth_url, json=auth_data, timeout=10)
+            auth_response.raise_for_status()
+            
+            # The session should now be authenticated via cookies
+            logger.info("Successfully authenticated with HookTheory API")
+            
+        except requests.RequestException as e:
+            logger.error(f"HookTheory authentication failed: {e}")
+            return []
         
         # Common chord progressions to fetch
         progressions = [
@@ -656,48 +701,50 @@ class MusicDataScraper:
             "1,4,5,1"   # I-IV-V-I
         ]
         
-        headers = {'Authorization': f'Bearer {bearer_token}'}
-        
         for progression in progressions:
             try:
+                # Use the authenticated session (no Bearer token needed)
                 url = f"https://api.hooktheory.com/v1/trends/nodes?cp={progression}"
-                response = self._make_request(url, headers=headers)
+                response = self.session.get(url, timeout=10)
+                response.raise_for_status()
                 
-                if response:
-                    data = response.json()
-                    
-                    # Process the response data
-                    for item in data:
-                        if 'songs' in item:
-                            for song in item['songs']:
-                                content = f"Chord progression: {progression}\n"
-                                content += f"Song: {song.get('song', 'Unknown')}\n"
-                                content += f"Artist: {song.get('artist', 'Unknown')}\n"
-                                content += f"Probability: {song.get('probability', 0)}\n"
-                                
-                                metadata = {
-                                    'source': 'HookTheory',
-                                    'title': f"{song.get('artist', 'Unknown')} - {song.get('song', 'Unknown')}",
-                                    'type': 'chord_progression',
-                                    'progression': progression,
-                                    'instrument': 'general'
-                                }
-                                
-                                chunk_id = hashlib.md5(content.encode()).hexdigest()
-                                
-                                chunk = MusicChunk(
-                                    source='HookTheory',
-                                    title=metadata['title'],
-                                    content=content,
-                                    metadata=metadata,
-                                    chunk_id=chunk_id,
-                                    token_count=len(self.tokenizer.encode(content))
-                                )
-                                chunks.append(chunk)
-                                
+                data = response.json()
+                
+                # Process the response data
+                for item in data:
+                    if 'songs' in item:
+                        for song in item['songs']:
+                            content = f"Chord progression: {progression}\n"
+                            content += f"Song: {song.get('song', 'Unknown')}\n"
+                            content += f"Artist: {song.get('artist', 'Unknown')}\n"
+                            content += f"Probability: {song.get('probability', 0)}\n"
+                            
+                            metadata = {
+                                'source': 'HookTheory',
+                                'title': f"{song.get('artist', 'Unknown')} - {song.get('song', 'Unknown')}",
+                                'type': 'chord_progression',
+                                'progression': progression,
+                                'instrument': 'general'
+                            }
+                            
+                            chunk_id = hashlib.md5(content.encode()).hexdigest()
+                            
+                            chunk = MusicChunk(
+                                source='HookTheory',
+                                title=metadata['title'],
+                                content=content,
+                                metadata=metadata,
+                                chunk_id=chunk_id,
+                                token_count=len(self.tokenizer.encode(content))
+                            )
+                            chunks.append(chunk)
+                            
             except Exception as e:
                 logger.error(f"Error scraping HookTheory progression {progression}: {e}")
                 continue
+                
+            # Rate limiting
+            time.sleep(0.5)
         
         return chunks
 
@@ -711,14 +758,30 @@ class MusicDataScraper:
         logger.info(f"Saved {len(chunks)} chunks to {output_file}")
 
     def save_to_chromadb(self, chunks: List[MusicChunk]):
-        """Save chunks to ChromaDB"""
+        """Save chunks to ChromaDB with duplicate handling"""
         if not chunks:
             return
         
         documents = [chunk.content for chunk in chunks]
         # Sanitize metadata for ChromaDB compatibility
         metadatas = [self._sanitize_metadata_for_chromadb(chunk.metadata) for chunk in chunks]
-        ids = [chunk.chunk_id for chunk in chunks]
+        
+        # Ensure unique IDs by adding a counter to duplicates
+        ids = []
+        seen_ids = set()
+        
+        for chunk in chunks:
+            base_id = chunk.chunk_id
+            unique_id = base_id
+            counter = 1
+            
+            # If we've seen this ID before, add a counter
+            while unique_id in seen_ids:
+                unique_id = f"{base_id}_{counter}"
+                counter += 1
+                
+            seen_ids.add(unique_id)
+            ids.append(unique_id)
         
         # Add chunks in batches to avoid memory issues
         batch_size = 100
@@ -733,13 +796,25 @@ class MusicDataScraper:
                     metadatas=batch_metas,
                     ids=batch_ids
                 )
+                logger.info(f"Successfully added batch {i//batch_size + 1} to ChromaDB")
             except Exception as e:
                 logger.error(f"Error adding batch to ChromaDB: {e}")
+                # Try adding items one by one to identify problematic entries
+                for j, (doc, meta, id_) in enumerate(zip(batch_docs, batch_metas, batch_ids)):
+                    try:
+                        self.collection.add(
+                            documents=[doc],
+                            metadatas=[meta],
+                            ids=[id_]
+                        )
+                    except Exception as item_error:
+                        logger.error(f"Error adding individual item {id_}: {item_error}")
+                        logger.error(f"Problematic metadata: {meta}")
         
         logger.info(f"Added {len(chunks)} chunks to ChromaDB")
 
-    def run_full_scrape(self, hooktheory_token: Optional[str] = None):
-        """Run the complete scraping pipeline"""
+    def run_full_scrape(self, hooktheory_username: Optional[str] = None, hooktheory_password: Optional[str] = None):
+    
         logger.info("Starting full scraping pipeline...")
         
         all_chunks = []
@@ -753,7 +828,7 @@ class MusicDataScraper:
         sample_ug_urls = [
             "https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007",
             "https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956",
-            "https://tabs.ultimate-guitar.com/tab/led-zeppelin/stairway-to-heaven-chords-15593"
+            "http://gprotab.net/en/tabs/the-beatles/let-it-be"
         ]
         
         ug_chunks = self.scrape_ultimate_guitar_tabs(sample_ug_urls)
@@ -765,9 +840,9 @@ class MusicDataScraper:
         all_chunks.extend(awesome_chunks)
         self.save_chunks_to_json(awesome_chunks, "awesome_guitar_resources")
         
-        # 4. Scrape HookTheory (if token provided)
-        if hooktheory_token:
-            hook_chunks = self.scrape_hooktheory_data(hooktheory_token)
+        # 4. Scrape HookTheory (if credentials provided)
+        if hooktheory_username and hooktheory_password:
+            hook_chunks = self.scrape_hooktheory_data(hooktheory_username, hooktheory_password)
             all_chunks.extend(hook_chunks)
             self.save_chunks_to_json(hook_chunks, "hooktheory_progressions")
         
@@ -817,7 +892,7 @@ class MusicDataScraper:
                     continue
                     
                 # Fix: Use correct guitarpro method
-                song = guitarpro.open(filepath)
+                song = guitarpro.parse(filepath)
                 title = song.title or os.path.basename(filepath)
                 tempo = song.tempo
                 
@@ -1201,13 +1276,18 @@ class MusicDataScraper:
             logger.error(f"Error during ChromaDB query test: {e}")
 
 
+
+
 def main():
+    load_dotenv() 
+    
     """Main execution function"""
     # Initialize scraper
     scraper = MusicDataScraper(output_dir="music_rag_data", chunk_size=300)
     
-    # Optional: Set HookTheory token if available
-    hooktheory_token = os.getenv('HOOKTHEORY_TOKEN')  # Set this in your environment
+    # Get HookTheory credentials from environment variables
+    hooktheory_username = os.getenv('HOOKTHEORY_USERNAME')
+    hooktheory_password = os.getenv('HOOKTHEORY_PASSWORD')
     
     # Create a 'samples' directory if it doesn't exist
     Path("samples").mkdir(exist_ok=True)
@@ -1241,12 +1321,39 @@ def main():
         # Add more AlphaTex files as needed
     ]
 
-    # Parse all file types
+    all_files = tuxguitar_files + freetar_tabs + tabs_lite_files + guitar_trainer_midi_files + alphatex_files
+    for filepath in all_files:
+        if os.path.exists(filepath):
+            size = os.path.getsize(filepath)
+            logger.info(f"File exists: {filepath} ({size} bytes)")
+        else:
+            logger.warning(f"File missing: {filepath}")
+
+    # Parse all file types with individual reporting
+    logger.info("Parsing TuxGuitar files...")
     tux_chunks = scraper.parse_tuxguitar_files(tuxguitar_files)
+    logger.info(f"TuxGuitar chunks: {len(tux_chunks)}")
+    
+    logger.info("Parsing freetar tabs...")
     freetar_chunks = scraper.parse_freetar_ascii_tabs(freetar_tabs)
+    logger.info(f"Freetar chunks: {len(freetar_chunks)}")
+    
+    logger.info("Parsing tabs-lite files...")
     tabs_lite_chunks = scraper.parse_tabs_lite_files(tabs_lite_files)
+    logger.info(f"Tabs-lite chunks: {len(tabs_lite_chunks)}")
+    
+    logger.info("Parsing MIDI files...")
     midi_chunks = scraper.parse_midi_files(guitar_trainer_midi_files)
+    logger.info(f"MIDI chunks: {len(midi_chunks)}")
+    
+    logger.info("Parsing AlphaTex files...")
     alphatex_chunks = scraper.parse_alphatex_files(alphatex_files)
+    logger.info(f"AlphaTex chunks: {len(alphatex_chunks)}")
+
+    all_phase1_chunks = tux_chunks + freetar_chunks + tabs_lite_chunks + midi_chunks + alphatex_chunks
+    
+    logger.info(f"Phase 1 total chunks: {len(all_phase1_chunks)}")
+    logger.info(f"Breakdown: TuxGuitar={len(tux_chunks)}, Freetar={len(freetar_chunks)}, TabsLite={len(tabs_lite_chunks)}, MIDI={len(midi_chunks)}, AlphaTex={len(alphatex_chunks)}")
 
     all_phase1_chunks = tux_chunks + freetar_chunks + tabs_lite_chunks + midi_chunks + alphatex_chunks
     
@@ -1259,8 +1366,12 @@ def main():
 
     # --- Phase 2: Web Scraping and API Data ---
     logger.info("--- Phase 2: Web Scraping and API Data ---")
-    
-    web_chunks = scraper.run_full_scrape(hooktheory_token=hooktheory_token)
+
+
+    web_chunks = scraper.run_full_scrape(
+        hooktheory_username=hooktheory_username,
+        hooktheory_password=hooktheory_password
+    )
     
     # Combine all chunks
     all_chunks = all_phase1_chunks + web_chunks
@@ -1270,6 +1381,7 @@ def main():
     print(f"Phase 1 (local files): {len(all_phase1_chunks)} chunks")
     print(f"Phase 2 (web scraping): {len(web_chunks)} chunks") 
     print(f"Total chunks collected: {len(all_chunks)}")
+
 
 
 if __name__ == "__main__":

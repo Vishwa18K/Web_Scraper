@@ -1,10 +1,8 @@
-\title "Sample Song"
-\artist "Test Artist"
-\tempo 120
+\\title "Test Song"  
+\\artist "Test Artist"
+\\tempo 120
 
-\track "Guitar"
-. 3.2 3.0 2.2 2.0 | 1.2 1.0 0.2 0.0 |
-. 3.2 3.0 2.2 2.0 | 1.2 1.0 0.2 0.0 |
-
-\track "Chords" 
-Am . . . | F . . . | C . . . | G . . . |
+.
+0.2 2.2 3.2 | 
+2.3 0.3 1.3 |
+3.1 2.1 0.1 |
