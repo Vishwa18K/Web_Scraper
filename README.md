@@ -20,7 +20,7 @@ Saves all content as JSON files
 Stores in ChromaDB vector database for semantic search
 Creates searchable chunks with metadata (source, difficulty, topic, etc.)
 
-# Installation (prereqs, and file structure, and changing file paths)
+# Installation (prereqs mainly (ignore file structure part - that is automatically handeled by the code)
 <img width="418" height="332" alt="image" src="https://github.com/user-attachments/assets/ff38cc75-63dd-433a-8a53-08e8d592ebb4" />
 
 
