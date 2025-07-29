@@ -238,7 +238,6 @@ class MusicWebScraper:
         chord_websites = [
             'https://www.guitar-chords.org.uk/',
             'https://www.justinguitar.com/categories/guitar-chord-library',
-            'https://www.chordie.com/chord.pere/www.guitaretab.com/j/jeremy-riddle/345366.html',
             'https://www.fender.com/articles/play/guitar-chord-library'
         ]
         
