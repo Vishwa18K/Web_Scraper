@@ -1,6 +1,5 @@
 .venv
 .env
-music_rag_data
 scraper.log
 scraped_data
 guitar_resources_text_chunks

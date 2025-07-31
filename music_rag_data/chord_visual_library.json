@@ -1,0 +1,6974 @@
+[
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "Am",
+    "notation": "002210",
+    "fret_positions": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\Am.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "am",
+    "notation": "002210",
+    "fret_positions": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\am.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "am",
+    "notation": "002210",
+    "fret_positions": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\am.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "am",
+    "notation": "002210",
+    "fret_positions": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\am.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "am",
+    "notation": "002210",
+    "fret_positions": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\am.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "am",
+    "notation": "002210",
+    "fret_positions": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\am.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "am",
+    "notation": "002210",
+    "fret_positions": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\am.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "am",
+    "notation": "002210",
+    "fret_positions": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\am.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "g",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\g.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "e",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\e.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "em",
+    "notation": "022000",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\em.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "d",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\d.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "c",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\c.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "f",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\f.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "a",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\a.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C",
+    "notation": "032010",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G",
+    "notation": "320003",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "Am",
+    "notation": "002210",
+    "fret_positions": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\Am.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "F",
+    "notation": "133211",
+    "fret_positions": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\F.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "D",
+    "notation": "xx0232",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\D.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "Em",
+    "notation": "022000",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\Em.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "A",
+    "notation": "x02220",
+    "fret_positions": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\A.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "E",
+    "notation": "022100",
+    "fret_positions": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\E.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "Dm",
+    "notation": "xx0231",
+    "fret_positions": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\Dm.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "B7",
+    "notation": "x21202",
+    "fret_positions": [
+      -1,
+      2,
+      1,
+      2,
+      0,
+      2
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\B7.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "C7",
+    "notation": "032310",
+    "fret_positions": [
+      0,
+      3,
+      2,
+      3,
+      1,
+      0
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\C7.png",
+    "source": "database"
+  },
+  {
+    "chord_name": "G7",
+    "notation": "320001",
+    "fret_positions": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      1
+    ],
+    "diagram_path": "music_rag_data\\chord_diagrams\\G7.png",
+    "source": "database"
+  }
+]

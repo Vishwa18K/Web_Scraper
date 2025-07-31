@@ -7,6 +7,11 @@ chromadb
 playwright
 pdfplumber
 music21
-guitarpro
+#pyguitar
 pretty_midi
 pandas
+matplotlib.pyplot
+matplotlib.patches
+numpy
+Pillow
+requests

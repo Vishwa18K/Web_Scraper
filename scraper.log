@@ -856,3 +856,101 @@
 2025-07-25 15:43:20,296 - INFO - Added 785 chunks to ChromaDB
 2025-07-25 15:43:20,346 - INFO - Saved 785 chunks to music_rag_data\complete_music_dataset.json
 2025-07-25 15:43:20,347 - INFO - Scraping complete! Total chunks: 785
+2025-07-29 14:25:13,711 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-29 14:25:17,821 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-29 14:25:17,821 - INFO - File exists: samples/sample.gp3 (7685 bytes)
+2025-07-29 14:25:17,822 - INFO - File exists: samples/tab1.txt (317 bytes)
+2025-07-29 14:25:17,822 - INFO - File exists: samples/sample_chords.txt (150 bytes)
+2025-07-29 14:25:17,823 - INFO - File exists: samples/sample.mid (31365 bytes)
+2025-07-29 14:25:17,823 - INFO - File exists: samples/alphatab_sample.atx (109 bytes)
+2025-07-29 14:25:17,823 - INFO - Parsing TuxGuitar files...
+2025-07-29 14:25:17,913 - INFO - TuxGuitar chunks: 727
+2025-07-29 14:25:17,914 - INFO - Parsing freetar tabs...
+2025-07-29 14:25:17,928 - INFO - Freetar chunks: 3
+2025-07-29 14:25:17,928 - INFO - Parsing tabs-lite files...
+2025-07-29 14:25:17,944 - INFO - Tabs-lite chunks: 1
+2025-07-29 14:25:17,944 - INFO - Parsing MIDI files...
+2025-07-29 14:25:19,673 - INFO - MIDI chunks: 618
+2025-07-29 14:25:19,673 - INFO - Parsing AlphaTex files...
+2025-07-29 14:25:19,825 - INFO - AlphaTex chunks: 1
+2025-07-29 14:25:19,825 - INFO - Phase 1 total chunks: 1350
+2025-07-29 14:25:19,826 - INFO - Breakdown: TuxGuitar=727, Freetar=3, TabsLite=1, MIDI=618, AlphaTex=1
+2025-07-29 14:25:19,860 - INFO - Saved 1350 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-29 14:25:19,860 - INFO - Testing ChromaDB ingestion and query with 1350 chunks...
+2025-07-29 14:25:19,931 - INFO - ChromaDB collection cleared for test.
+2025-07-29 14:25:23,035 - INFO - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2025-07-29 14:25:32,102 - INFO - Successfully added batch 1 to ChromaDB
+2025-07-29 14:25:34,609 - INFO - Successfully added batch 2 to ChromaDB
+2025-07-29 14:25:37,413 - INFO - Successfully added batch 3 to ChromaDB
+2025-07-29 14:25:40,090 - INFO - Successfully added batch 4 to ChromaDB
+2025-07-29 14:25:42,746 - INFO - Successfully added batch 5 to ChromaDB
+2025-07-29 14:25:45,389 - INFO - Successfully added batch 6 to ChromaDB
+2025-07-29 14:25:48,077 - INFO - Successfully added batch 7 to ChromaDB
+2025-07-29 14:25:50,659 - INFO - Successfully added batch 8 to ChromaDB
+2025-07-29 14:25:53,274 - INFO - Successfully added batch 9 to ChromaDB
+2025-07-29 14:25:55,831 - INFO - Successfully added batch 10 to ChromaDB
+2025-07-29 14:25:58,382 - INFO - Successfully added batch 11 to ChromaDB
+2025-07-29 14:26:00,844 - INFO - Successfully added batch 12 to ChromaDB
+2025-07-29 14:26:03,350 - INFO - Successfully added batch 13 to ChromaDB
+2025-07-29 14:26:04,693 - INFO - Successfully added batch 14 to ChromaDB
+2025-07-29 14:26:04,694 - INFO - Added 1350 chunks to ChromaDB
+2025-07-29 14:26:04,986 - INFO - --- Phase 2: Web Scraping and API Data ---
+2025-07-29 14:26:04,986 - INFO - Starting full scraping pipeline...
+2025-07-29 14:26:04,986 - INFO - Scraping educational music websites...
+2025-07-29 14:26:15,401 - ERROR - Request failed for https://www.guitarinstitute.com/resources/: HTTPSConnectionPool(host='www.guitarinstitute.com', port=443): Max retries exceeded with url: /resources/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002197C4BA990>, 'Connection to www.guitarinstitute.com timed out. (connect timeout=10)'))
+2025-07-29 14:26:15,402 - INFO - Scraped 0 chunks from https://www.guitarinstitute.com/resources/
+2025-07-29 14:26:40,397 - INFO - Scraped 0 chunks from https://www.musictheory.net/lessons
+2025-07-29 14:26:48,041 - ERROR - Error scraping lesson page https://viva.pressbooks.pub/openmusictheory/open/download?type=wxr: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2025-07-29 14:26:53,436 - INFO - Scraped 11 chunks from https://viva.pressbooks.pub/openmusictheory/
+2025-07-29 14:26:58,760 - INFO - Scraped 0 chunks from https://iconcollective.edu/basic-music-theory/
+2025-07-29 14:28:14,014 - INFO - Scraped 58 chunks from https://www.jazzadvice.com/
+2025-07-29 14:28:44,588 - INFO - Scraped 83 chunks from https://tonesavvy.com/
+2025-07-29 14:28:46,915 - INFO - Scraped 2 chunks from https://tonedear.com/
+2025-07-29 14:28:58,513 - INFO - Scraped 255 chunks from https://www.earmaster.com/
+2025-07-29 14:29:10,685 - INFO - Scraped 1 chunks from https://www.premierguitar.com/
+2025-07-29 14:29:13,040 - ERROR - Request failed for https://www.sweetwater.com/sweetcare/: 403 Client Error: Forbidden for url: https://www.sweetwater.com/sweetcare/
+2025-07-29 14:29:13,041 - INFO - Scraped 0 chunks from https://www.sweetwater.com/sweetcare/
+2025-07-29 14:29:15,394 - ERROR - Request failed for https://www.guitartricks.com/: 403 Client Error: Forbidden for url: https://www.guitartricks.com/
+2025-07-29 14:29:15,395 - INFO - Scraped 0 chunks from https://www.guitartricks.com/
+2025-07-29 14:29:44,890 - INFO - Scraped 365 chunks from https://en.wikipedia.org/wiki/Music_theory
+2025-07-29 14:29:46,933 - INFO - Saved 775 chunks to music_rag_data\educational_websites.json
+2025-07-29 14:29:46,935 - INFO - Scraping Ultimate Guitar tabs...
+2025-07-29 14:29:47,333 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/coldplay/yellow-chords-90007
+2025-07-29 14:29:48,165 - ERROR - Request failed for https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956: 404 Client Error: Not Found for url: https://tabs.ultimate-guitar.com/tab/oasis/wonderwall-chords-16956
+2025-07-29 14:29:49,908 - ERROR - Error scraping http://gprotab.net/en/tabs/the-beatles/let-it-be: cannot access local variable 'text_chunks' where it is not associated with a value
+2025-07-29 14:29:49,909 - INFO - Saved 0 chunks to music_rag_data\ultimate_guitar_tabs.json
+2025-07-29 14:29:49,909 - INFO - Scraping awesome-guitar resources...
+2025-07-29 14:29:54,735 - INFO - Saved 12 chunks to music_rag_data\awesome_guitar_resources.json
+2025-07-29 14:29:57,843 - INFO - Successfully added batch 1 to ChromaDB
+2025-07-29 14:30:00,396 - INFO - Successfully added batch 2 to ChromaDB
+2025-07-29 14:30:03,120 - INFO - Successfully added batch 3 to ChromaDB
+2025-07-29 14:30:05,625 - INFO - Successfully added batch 4 to ChromaDB
+2025-07-29 14:30:08,348 - INFO - Successfully added batch 5 to ChromaDB
+2025-07-29 14:30:10,982 - INFO - Successfully added batch 6 to ChromaDB
+2025-07-29 14:30:13,628 - INFO - Successfully added batch 7 to ChromaDB
+2025-07-29 14:30:16,093 - INFO - Successfully added batch 8 to ChromaDB
+2025-07-29 14:30:16,093 - INFO - Added 787 chunks to ChromaDB
+2025-07-29 14:30:16,121 - INFO - Saved 787 chunks to music_rag_data\complete_music_dataset.json
+2025-07-29 14:30:16,122 - INFO - Scraping complete! Total chunks: 787
+2025-07-30 19:37:17,624 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-30 19:37:22,271 - INFO - --- Phase 1: Processing local tab files ---
+2025-07-30 19:37:22,272 - INFO - File exists: samples/sample.gp3 (7685 bytes)
+2025-07-30 19:37:22,272 - INFO - File exists: samples/tab1.txt (317 bytes)
+2025-07-30 19:37:22,273 - INFO - File exists: samples/sample_chords.txt (150 bytes)
+2025-07-30 19:37:22,273 - INFO - File exists: samples/sample.mid (31365 bytes)
+2025-07-30 19:37:22,274 - INFO - File exists: samples/alphatab_sample.atx (109 bytes)
+2025-07-30 19:37:22,275 - INFO - Parsing TuxGuitar files...
+2025-07-30 19:37:22,378 - INFO - TuxGuitar chunks: 727
+2025-07-30 19:37:22,379 - INFO - Parsing freetar tabs...
+2025-07-30 19:37:22,394 - INFO - Freetar chunks: 3
+2025-07-30 19:37:22,395 - INFO - Parsing tabs-lite files...
+2025-07-30 19:37:22,407 - INFO - Tabs-lite chunks: 1
+2025-07-30 19:37:22,408 - INFO - Parsing MIDI files...
+2025-07-30 19:37:22,782 - INFO - MIDI chunks: 618
+2025-07-30 19:37:22,783 - INFO - Parsing AlphaTex files...
+2025-07-30 19:37:22,954 - INFO - AlphaTex chunks: 1
+2025-07-30 19:37:22,954 - INFO - Phase 1 total chunks: 1350
+2025-07-30 19:37:22,955 - INFO - Breakdown: TuxGuitar=727, Freetar=3, TabsLite=1, MIDI=618, AlphaTex=1
+2025-07-30 19:37:23,037 - INFO - Saved 1350 chunks to music_rag_data\phase1_local_file_chunks.json
+2025-07-30 19:37:23,038 - INFO - Testing ChromaDB ingestion and query with 1350 chunks...
+2025-07-30 19:37:23,983 - INFO - ChromaDB collection cleared for test.
